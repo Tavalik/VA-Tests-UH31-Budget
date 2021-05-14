@@ -1,0 +1,42 @@
+{
+	"uuid": "e8fb84fd-8ee2-46a5-8a1f-a720f665ebe6",
+	"name": "Контекст_01.08. Создание сценария",
+	"description": "",
+	"children": [
+		"f114c88f-90bf-486f-b500-db0946d5932b"
+	],
+	"befores": [
+		{
+			"name": "Дано Я открыл новый сеанс TestClient или подключил уже существующий",
+			"start": 1620975793278,
+			"stop": 1620975793417,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрыл все окна клиентского приложения",
+			"start": 1620975793652,
+			"stop": 1620975793781,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

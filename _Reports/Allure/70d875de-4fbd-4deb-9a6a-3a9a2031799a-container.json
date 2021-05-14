@@ -1,0 +1,42 @@
+{
+	"uuid": "d827d232-254d-4b81-8f00-39e9347cbff9",
+	"name": "Контекст_01.12. Создание экземпляра отчета",
+	"description": "",
+	"children": [
+		"70d875de-4fbd-4deb-9a6a-3a9a2031799a"
+	],
+	"befores": [
+		{
+			"name": "Дано Я открыл новый сеанс TestClient или подключил уже существующий",
+			"start": 1620975825669,
+			"stop": 1620975825820,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрыл все окна клиентского приложения",
+			"start": 1620975826018,
+			"stop": 1620975826206,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

@@ -1,0 +1,42 @@
+{
+	"uuid": "f1d034fe-8cc7-48d4-a2c3-a0561c4f7380",
+	"name": "Контекст_01.01. Создание группы видов отчетов",
+	"description": "",
+	"children": [
+		"9dbb2bd2-aa70-4783-b177-7edf33554c43"
+	],
+	"befores": [
+		{
+			"name": "Дано Я открыл новый сеанс TestClient или подключил уже существующий",
+			"start": 1620975699084,
+			"stop": 1620975699470,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрыл все окна клиентского приложения",
+			"start": 1620975699646,
+			"stop": 1620975699692,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

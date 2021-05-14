@@ -1,0 +1,42 @@
+{
+	"uuid": "60c1d182-b360-44d6-bef4-57075aec6350",
+	"name": "Контекст_01.03. Открытие конструктора отчета",
+	"description": "",
+	"children": [
+		"341c42d1-fe89-4c0a-901e-64f87fded488"
+	],
+	"befores": [
+		{
+			"name": "Дано Я открыл новый сеанс TestClient или подключил уже существующий",
+			"start": 1620975708067,
+			"stop": 1620975708462,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрыл все окна клиентского приложения",
+			"start": 1620975708608,
+			"stop": 1620975708746,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

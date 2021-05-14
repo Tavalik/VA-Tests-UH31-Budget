@@ -1,0 +1,1331 @@
+{
+	"uuid": "26aff785-455b-4a06-9bf4-685e99d0268c",
+	"historyId": "Проверка создание видов отчетов.01.10. Создание документа Управление отчетным периодом",
+	"name": "01.10. Создание документа Управление отчетным периодом",
+	"fullName": null,
+	"start": 1620975804664,
+	"stop": 1620975818031,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false,
+		"message": "Не смог сделать выбрать из списка выбора <ВерсияОрганизационнойСтруктуры> по строке <ВА - Основной регламент>.",
+		"trace": "{ВнешняяОбработка.РаботаСИнтерфейсом.Форма.Форма.Форма(7673)}: Не смог сделать выбрать из списка выбора <ВерсияОрганизационнойСтруктуры> по строке <ВА - Основной регламент>. Количество попыток <3>.\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: Управление отчетным периодом (создание) *\n        ИмяАктивнойФормы: Документ.УправлениеПериодомСценария.Форма.МастерЗаполнения\n        ИмяФичи: Проверка создание видов отчетов\n        ИмяСценария: 01.10. Создание документа Управление отчетным периодом\n        НомерСтрокиДерева: 957\n        НомерСтрокиФичи: 1 155\n        ПолнйПутьКФиче: D:\\VA-Tests\\СозданиеВидаЭкземпляраОтчета1.feature\n        ИмяФайла: C:/Commons/rep/vanessa-automation/features/Libraries/UITestRunner/step_definitions/РаботаСИнтерфейсом.epf\n        ИмяПроцедуры: ИзВыпадающегоСпискаСИменемЯВыбираюПоСтроке\n        ИмяРаннера: onyanov-v\n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: Srvr=\"onyanov-v:1541\";Ref=\"Auto_ERPUH31_VA\";\n        PIDКлиентаТестирования: 3872\n        ВерсияVA: ver 1.2.036.1\n        ВерсияПлатформы: 8.3.17.1851\n        РежимСовместимостиTestManager: Версия8_3_16\n        ДатаВремяОшибки: 14.05.2021 10:03:38"
+	},
+	"status": "failed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И В командном интерфейсе я выбираю 'Бюджетирование, отчетность и анализ' 'Управление отчетным периодом'",
+			"start": 1620975805353,
+			"stop": 1620975805484,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Бюджетирование, отчетность и анализ"
+				},
+				{
+					"name": "Парам2",
+					"value": "Управление отчетным периодом"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Управление отчетным периодом'",
+			"start": 1620975805484,
+			"stop": 1620975805704,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Управление отчетным периодом"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаСоздать'",
+			"start": 1620975805704,
+			"stop": 1620975805719,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаСоздать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Управление отчетным периодом (создание)'",
+			"start": 1620975805719,
+			"stop": 1620975806383,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Управление отчетным периодом (создание)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем \"Сценарий\" я выбираю по строке 'ВА - Основной сценарий'",
+			"start": 1620975806384,
+			"stop": 1620975806775,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Сценарий"
+				},
+				{
+					"name": "Парам2",
+					"value": "ВА - Основной сценарий"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем \"ПериодичностьСценария\" я выбираю точное значение 'Месяц'",
+			"start": 1620975806776,
+			"stop": 1620975806803,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПериодичностьСценария"
+				},
+				{
+					"name": "Парам2",
+					"value": "Месяц"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ИзменитьПериод'",
+			"start": 1620975806804,
+			"stop": 1620975806964,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ИзменитьПериод"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Выберите период'",
+			"start": 1620975806964,
+			"stop": 1620975807045,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Выберите период"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'DateBegin' я ввожу текст '01.01.2021'",
+			"start": 1620975807045,
+			"stop": 1620975807050,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "DateBegin"
+				},
+				{
+					"name": "Парам2",
+					"value": "01.01.2021"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'DateEnd' я ввожу текст '31.03.2021'",
+			"start": 1620975807050,
+			"stop": 1620975807062,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "DateEnd"
+				},
+				{
+					"name": "Парам2",
+					"value": "31.03.2021"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'Select'",
+			"start": 1620975807063,
+			"stop": 1620975807070,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Select"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Управление отчетным периодом (создание) *'",
+			"start": 1620975807071,
+			"stop": 1620975807273,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Управление отчетным периодом (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем \"ВерсияОрганизационнойСтруктуры\" я выбираю по строке 'ВА - Основной регламент'",
+			"start": 1620975807273,
+			"stop": 1620975818031,
+			"status": "failed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false,
+				"message": "Не смог сделать выбрать из списка выбора <ВерсияОрганизационнойСтруктуры> по строке <ВА - Основной регламент>.",
+				"trace": "{ВнешняяОбработка.РаботаСИнтерфейсом.Форма.Форма.Форма(7673)}: Не смог сделать выбрать из списка выбора <ВерсияОрганизационнойСтруктуры> по строке <ВА - Основной регламент>. Количество попыток <3>.\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: Управление отчетным периодом (создание) *\n        ИмяАктивнойФормы: Документ.УправлениеПериодомСценария.Форма.МастерЗаполнения\n        ИмяФичи: Проверка создание видов отчетов\n        ИмяСценария: 01.10. Создание документа Управление отчетным периодом\n        НомерСтрокиДерева: 957\n        НомерСтрокиФичи: 1 155\n        ПолнйПутьКФиче: D:\\VA-Tests\\СозданиеВидаЭкземпляраОтчета1.feature\n        ИмяФайла: C:/Commons/rep/vanessa-automation/features/Libraries/UITestRunner/step_definitions/РаботаСИнтерфейсом.epf\n        ИмяПроцедуры: ИзВыпадающегоСпискаСИменемЯВыбираюПоСтроке\n        ИмяРаннера: onyanov-v\n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: Srvr=\"onyanov-v:1541\";Ref=\"Auto_ERPUH31_VA\";\n        PIDКлиентаТестирования: 3872\n        ВерсияVA: ver 1.2.036.1\n        ВерсияПлатформы: 8.3.17.1851\n        РежимСовместимостиTestManager: Версия8_3_16\n        ДатаВремяОшибки: 14.05.2021 10:03:38"
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ВерсияОрганизационнойСтруктуры"
+				},
+				{
+					"name": "Парам2",
+					"value": "ВА - Основной регламент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я устанавливаю флаг с именем 'УстановкаЛимитов'",
+			"start": 1620975818031,
+			"stop": 1620975818031,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "УстановкаЛимитов"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ОткрытьВидыОтчетовДляУстановкиЛимитов'",
+			"start": 1620975818031,
+			"stop": 1620975818031,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ОткрытьВидыОтчетовДляУстановкиЛимитов"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Виды отчетов для установки лимитов'",
+			"start": 1620975818031,
+			"stop": 1620975818031,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Виды отчетов для установки лимитов"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю окно 'Виды отчетов для установки лимитов'",
+			"start": 1620975818031,
+			"stop": 1620975818031,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Виды отчетов для установки лимитов"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Управление отчетным периодом (создание) *'",
+			"start": 1620975818031,
+			"stop": 1620975818031,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Управление отчетным периодом (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я снимаю флаг с именем 'УстановкаЛимитов'",
+			"start": 1620975818031,
+			"stop": 1620975818031,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "УстановкаЛимитов"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаВперед'",
+			"start": 1620975818031,
+			"stop": 1620975818031,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаВперед"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно '1С:Предприятие'",
+			"start": 1620975818031,
+			"stop": 1620975818031,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "1С:Предприятие"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'Button0'",
+			"start": 1620975818031,
+			"stop": 1620975818031,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Button0"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Январь * г. - Март * г. (Периодичность: Месяц) <ВА - Основной сценарий>'",
+			"start": 1620975818031,
+			"stop": 1620975818031,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Январь * г. - Март * г. (Периодичность: Месяц) <ВА - Основной сценарий>"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"ТаблицаРедактированияКурсов\" я нажимаю на кнопку с именем 'ТаблицаРедактированияКурсовТаблицаКурсов_Обновить'",
+			"start": 1620975818031,
+			"stop": 1620975818031,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ТаблицаРедактированияКурсов"
+				},
+				{
+					"name": "Парам2",
+					"value": "ТаблицаРедактированияКурсовТаблицаКурсов_Обновить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"ТаблицаРедактированияКурсов\" я нажимаю на кнопку с именем 'ТаблицаРедактированияКурсовТаблицаКурсов_Записать'",
+			"start": 1620975818031,
+			"stop": 1620975818031,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ТаблицаРедактированияКурсов"
+				},
+				{
+					"name": "Парам2",
+					"value": "ТаблицаРедактированияКурсовТаблицаКурсов_Записать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаВперед'",
+			"start": 1620975818031,
+			"stop": 1620975818031,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаВперед"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно '1С:Предприятие'",
+			"start": 1620975818031,
+			"stop": 1620975818031,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "1С:Предприятие"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'Button0'",
+			"start": 1620975818031,
+			"stop": 1620975818031,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Button0"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Январь * г. - Март * г. (Периодичность: Месяц) <ВА - Основной сценарий>'",
+			"start": 1620975818031,
+			"stop": 1620975818031,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Январь * г. - Март * г. (Периодичность: Месяц) <ВА - Основной сценарий>"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'УправлениеПроцессом_Документ3'",
+			"start": 1620975818031,
+			"stop": 1620975818031,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "УправлениеПроцессом_Документ3"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Управление процессом подготовки отчетности (таблица)'",
+			"start": 1620975818031,
+			"stop": 1620975818031,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Управление процессом подготовки отчетности (таблица)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'СформироватьОтчет'",
+			"start": 1620975818031,
+			"stop": 1620975818031,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СформироватьОтчет"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю окно 'Управление процессом подготовки отчетности (таблица)'",
+			"start": 1620975818031,
+			"stop": 1620975818031,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Управление процессом подготовки отчетности (таблица)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Январь * г. - Март * г. (Периодичность: Месяц) <ВА - Основной сценарий>'",
+			"start": 1620975818031,
+			"stop": 1620975818031,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Январь * г. - Март * г. (Периодичность: Месяц) <ВА - Основной сценарий>"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'УправлениеПроцессом_Документ2'",
+			"start": 1620975818031,
+			"stop": 1620975818031,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "УправлениеПроцессом_Документ2"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Ход выполнения процесса подготовки отчетности'",
+			"start": 1620975818031,
+			"stop": 1620975818031,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Ход выполнения процесса подготовки отчетности"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю окно 'Ход выполнения процесса подготовки отчетности'",
+			"start": 1620975818031,
+			"stop": 1620975818031,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Ход выполнения процесса подготовки отчетности"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Январь * г. - Март * г. (Периодичность: Месяц) <ВА - Основной сценарий>'",
+			"start": 1620975818031,
+			"stop": 1620975818031,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Январь * г. - Март * г. (Периодичность: Месяц) <ВА - Основной сценарий>"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'УправлениеПериодами1'",
+			"start": 1620975818031,
+			"stop": 1620975818031,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "УправлениеПериодами1"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Управление актуализацией границей закрытия периода'",
+			"start": 1620975818031,
+			"stop": 1620975818031,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Управление актуализацией границей закрытия периода"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю окно 'Управление актуализацией границей закрытия периода'",
+			"start": 1620975818031,
+			"stop": 1620975818031,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Управление актуализацией границей закрытия периода"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Январь * г. - Март * г. (Периодичность: Месяц) <ВА - Основной сценарий>'",
+			"start": 1620975818031,
+			"stop": 1620975818031,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Январь * г. - Март * г. (Периодичность: Месяц) <ВА - Основной сценарий>"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаВперед'",
+			"start": 1620975818031,
+			"stop": 1620975818031,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаВперед"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'КнопкаУдалениеВерсий'",
+			"start": 1620975818031,
+			"stop": 1620975818031,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "КнопкаУдалениеВерсий"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно '1С:Предприятие'",
+			"start": 1620975818031,
+			"stop": 1620975818031,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "1С:Предприятие"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'Button0'",
+			"start": 1620975818031,
+			"stop": 1620975818031,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Button0"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Январь * г. - Март * г. (Периодичность: Месяц) <ВА - Основной сценарий>'",
+			"start": 1620975818031,
+			"stop": 1620975818031,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Январь * г. - Март * г. (Периодичность: Месяц) <ВА - Основной сценарий>"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаЗакрыть'",
+			"start": 1620975818031,
+			"stop": 1620975818031,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаЗакрыть"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно 'Управление отчетным периодом'",
+			"start": 1620975818031,
+			"stop": 1620975818031,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Управление отчетным периодом"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"Список\" я выбираю текущую строку",
+			"start": 1620975818031,
+			"stop": 1620975818031,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Январь * г. - Март * г. (Периодичность: Месяц) <ВА - Основной сценарий>'",
+			"start": 1620975818031,
+			"stop": 1620975818031,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Январь * г. - Март * г. (Периодичность: Месяц) <ВА - Основной сценарий>"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ОтчетОрганизационнаяСтруктура'",
+			"start": 1620975818031,
+			"stop": 1620975818031,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ОтчетОрганизационнаяСтруктура"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Организационная структура кратко'",
+			"start": 1620975818031,
+			"stop": 1620975818031,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Организационная структура кратко"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю окно 'Организационная структура кратко'",
+			"start": 1620975818031,
+			"stop": 1620975818031,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Организационная структура кратко"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Январь * г. - Март * г. (Периодичность: Месяц) <ВА - Основной сценарий>'",
+			"start": 1620975818031,
+			"stop": 1620975818031,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Январь * г. - Март * г. (Периодичность: Месяц) <ВА - Основной сценарий>"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаВперед'",
+			"start": 1620975818031,
+			"stop": 1620975818031,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаВперед"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаВперед'",
+			"start": 1620975818031,
+			"stop": 1620975818031,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаВперед"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаВперед'",
+			"start": 1620975818031,
+			"stop": 1620975818031,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаВперед"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаНазад'",
+			"start": 1620975818031,
+			"stop": 1620975818031,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаНазад"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаНазад'",
+			"start": 1620975818031,
+			"stop": 1620975818031,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаНазад"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаНазад'",
+			"start": 1620975818031,
+			"stop": 1620975818031,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаНазад"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаЗакрыть'",
+			"start": 1620975818031,
+			"stop": 1620975818031,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаЗакрыть"
+				}
+			],
+			"attachments": [
+				{
+					"name": "screenshot",
+					"source": "v8_BC1_28.png",
+					"type": "image/png"
+				}
+			],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "01.10. Создание документа Управление отчетным периодом"
+		},
+		{
+			"name": "feature",
+			"value": "01.10. Создание документа Управление отчетным периодом"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "VA-Tests"
+		},
+		{
+			"name": "host",
+			"value": "onyanov-v"
+		}
+	],
+	"links": [],
+	"attachments": [
+		{
+			"name": "screenshot",
+			"source": "fae6c955-64a2-4ecc-8238-74fee74a9ac0-attachment.png",
+			"type": "image/png"
+		}
+	],
+	"description": null
+}

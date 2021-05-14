@@ -1,0 +1,42 @@
+{
+	"uuid": "7f8a526a-63cc-4ac0-a86b-d05b0bf1b4b4",
+	"name": "Контекст_01.11. Создание проекта",
+	"description": "",
+	"children": [
+		"a5fcf8b8-cde0-4daf-b94c-97fb5161490c"
+	],
+	"befores": [
+		{
+			"name": "Дано Я открыл новый сеанс TestClient или подключил уже существующий",
+			"start": 1620975820563,
+			"stop": 1620975820715,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрыл все окна клиентского приложения",
+			"start": 1620975820933,
+			"stop": 1620975821070,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

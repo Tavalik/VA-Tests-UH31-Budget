@@ -1,0 +1,3789 @@
+{
+	"uuid": "29cbb08f-ff1a-4b3b-a45f-989aaa21cf88",
+	"historyId": "Проверка создание видов отчетов.01.04. Работа в контрукторе отчета - Настройка структуры отчета",
+	"name": "01.04. Работа в контрукторе отчета - Настройка структуры отчета",
+	"fullName": null,
+	"start": 1620975710865,
+	"stop": 1620975727131,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И В командном интерфейсе я выбираю 'Бюджетирование, отчетность и анализ' 'Виды и бланки отчетов'",
+			"start": 1620975711642,
+			"stop": 1620975711679,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Бюджетирование, отчетность и анализ"
+				},
+				{
+					"name": "Парам2",
+					"value": "Виды и бланки отчетов"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Виды и бланки отчетов'",
+			"start": 1620975711679,
+			"stop": 1620975711865,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Виды и бланки отчетов"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"СписокВидовОтчетов\" я нажимаю на кнопку с именем 'СписокВидовОтчетовНайти'",
+			"start": 1620975711866,
+			"stop": 1620975711875,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СписокВидовОтчетов"
+				},
+				{
+					"name": "Парам2",
+					"value": "СписокВидовОтчетовНайти"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Найти'",
+			"start": 1620975711875,
+			"stop": 1620975711923,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Найти"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем \"Pattern\" я выбираю по строке 'ВАВидОтчетаСАНЛТми'",
+			"start": 1620975711923,
+			"stop": 1620975712158,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Pattern"
+				},
+				{
+					"name": "Парам2",
+					"value": "ВАВидОтчетаСАНЛТми"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'Find'",
+			"start": 1620975712159,
+			"stop": 1620975712167,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Find"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Виды и бланки отчетов'",
+			"start": 1620975712168,
+			"stop": 1620975712317,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Виды и бланки отчетов"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"СписокВидовОтчетов\" я нажимаю на кнопку с именем 'ОткрытьКонструктор'",
+			"start": 1620975712318,
+			"stop": 1620975712322,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СписокВидовОтчетов"
+				},
+				{
+					"name": "Парам2",
+					"value": "ОткрытьКонструктор"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно 'Конструктор отчета'",
+			"start": 1620975712322,
+			"stop": 1620975712473,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Конструктор отчета"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ДеревоСтрокДобавитьСтроки'",
+			"start": 1620975712473,
+			"stop": 1620975712489,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДеревоСтрокДобавитьСтроки"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Добавление новых строк'",
+			"start": 1620975712489,
+			"stop": 1620975712576,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Добавление новых строк"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"НовыеСтроки\" я нажимаю на кнопку с именем 'НовыеСтрокиДобавить'",
+			"start": 1620975712577,
+			"stop": 1620975712584,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НовыеСтроки"
+				},
+				{
+					"name": "Парам2",
+					"value": "НовыеСтрокиДобавить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"НовыеСтроки\" в поле с именем 'НовыеСтрокиНаименование' я ввожу текст 'СтрокаСинтетика'",
+			"start": 1620975712584,
+			"stop": 1620975712599,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НовыеСтроки"
+				},
+				{
+					"name": "Парам2",
+					"value": "НовыеСтрокиНаименование"
+				},
+				{
+					"name": "Парам3",
+					"value": "СтрокаСинтетика"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"НовыеСтроки\" я завершаю редактирование строки",
+			"start": 1620975712599,
+			"stop": 1620975712599,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НовыеСтроки"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"НовыеСтроки\" я нажимаю на кнопку с именем 'НовыеСтрокиДобавить'",
+			"start": 1620975712599,
+			"stop": 1620975712615,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НовыеСтроки"
+				},
+				{
+					"name": "Парам2",
+					"value": "НовыеСтрокиДобавить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"НовыеСтроки\" в поле с именем 'НовыеСтрокиНаименование' я ввожу текст 'СтрокаАналитика1'",
+			"start": 1620975712615,
+			"stop": 1620975712630,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НовыеСтроки"
+				},
+				{
+					"name": "Парам2",
+					"value": "НовыеСтрокиНаименование"
+				},
+				{
+					"name": "Парам3",
+					"value": "СтрокаАналитика1"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"НовыеСтроки\" я завершаю редактирование строки",
+			"start": 1620975712630,
+			"stop": 1620975712630,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НовыеСтроки"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"НовыеСтроки\" я нажимаю на кнопку с именем 'НовыеСтрокиДобавить'",
+			"start": 1620975712630,
+			"stop": 1620975712646,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НовыеСтроки"
+				},
+				{
+					"name": "Парам2",
+					"value": "НовыеСтрокиДобавить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"НовыеСтроки\" в поле с именем 'НовыеСтрокиНаименование' я ввожу текст 'СтрокаАналитика2'",
+			"start": 1620975712646,
+			"stop": 1620975712662,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НовыеСтроки"
+				},
+				{
+					"name": "Парам2",
+					"value": "НовыеСтрокиНаименование"
+				},
+				{
+					"name": "Парам3",
+					"value": "СтрокаАналитика2"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"НовыеСтроки\" я завершаю редактирование строки",
+			"start": 1620975712662,
+			"stop": 1620975712662,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НовыеСтроки"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"НовыеСтроки\" я нажимаю на кнопку с именем 'НовыеСтрокиДобавить'",
+			"start": 1620975712896,
+			"stop": 1620975712906,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НовыеСтроки"
+				},
+				{
+					"name": "Парам2",
+					"value": "НовыеСтрокиДобавить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"НовыеСтроки\" в поле с именем 'НовыеСтрокиНаименование' я ввожу текст 'СтрокаАналитика3'",
+			"start": 1620975712906,
+			"stop": 1620975712923,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НовыеСтроки"
+				},
+				{
+					"name": "Парам2",
+					"value": "НовыеСтрокиНаименование"
+				},
+				{
+					"name": "Парам3",
+					"value": "СтрокаАналитика3"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"НовыеСтроки\" я завершаю редактирование строки",
+			"start": 1620975712924,
+			"stop": 1620975712928,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НовыеСтроки"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"НовыеСтроки\" я нажимаю на кнопку с именем 'НовыеСтрокиДобавить'",
+			"start": 1620975712929,
+			"stop": 1620975712941,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НовыеСтроки"
+				},
+				{
+					"name": "Парам2",
+					"value": "НовыеСтрокиДобавить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"НовыеСтроки\" в поле с именем 'НовыеСтрокиНаименование' я ввожу текст 'СтрокаАналитика4'",
+			"start": 1620975712941,
+			"stop": 1620975712959,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НовыеСтроки"
+				},
+				{
+					"name": "Парам2",
+					"value": "НовыеСтрокиНаименование"
+				},
+				{
+					"name": "Парам3",
+					"value": "СтрокаАналитика4"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"НовыеСтроки\" я завершаю редактирование строки",
+			"start": 1620975712960,
+			"stop": 1620975712965,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НовыеСтроки"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"НовыеСтроки\" я нажимаю на кнопку с именем 'НовыеСтрокиДобавить'",
+			"start": 1620975712965,
+			"stop": 1620975712979,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НовыеСтроки"
+				},
+				{
+					"name": "Парам2",
+					"value": "НовыеСтрокиДобавить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"НовыеСтроки\" в поле с именем 'НовыеСтрокиНаименование' я ввожу текст 'СтрокаАналитика5'",
+			"start": 1620975712979,
+			"stop": 1620975712996,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НовыеСтроки"
+				},
+				{
+					"name": "Парам2",
+					"value": "НовыеСтрокиНаименование"
+				},
+				{
+					"name": "Парам3",
+					"value": "СтрокаАналитика5"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"НовыеСтроки\" я завершаю редактирование строки",
+			"start": 1620975712997,
+			"stop": 1620975713001,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НовыеСтроки"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"НовыеСтроки\" я нажимаю на кнопку с именем 'НовыеСтрокиДобавить'",
+			"start": 1620975713001,
+			"stop": 1620975713014,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НовыеСтроки"
+				},
+				{
+					"name": "Парам2",
+					"value": "НовыеСтрокиДобавить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"НовыеСтроки\" в поле с именем 'НовыеСтрокиНаименование' я ввожу текст 'СтрокаАналитика6'",
+			"start": 1620975713015,
+			"stop": 1620975713026,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НовыеСтроки"
+				},
+				{
+					"name": "Парам2",
+					"value": "НовыеСтрокиНаименование"
+				},
+				{
+					"name": "Парам3",
+					"value": "СтрокаАналитика6"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"НовыеСтроки\" я завершаю редактирование строки",
+			"start": 1620975713026,
+			"stop": 1620975713026,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НовыеСтроки"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"НовыеСтроки\" я нажимаю на кнопку с именем 'НовыеСтрокиДобавить'",
+			"start": 1620975713026,
+			"stop": 1620975713042,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НовыеСтроки"
+				},
+				{
+					"name": "Парам2",
+					"value": "НовыеСтрокиДобавить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"НовыеСтроки\" в поле с именем 'НовыеСтрокиНаименование' я ввожу текст 'СтрокаАналитика6Валюта'",
+			"start": 1620975713042,
+			"stop": 1620975713058,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НовыеСтроки"
+				},
+				{
+					"name": "Парам2",
+					"value": "НовыеСтрокиНаименование"
+				},
+				{
+					"name": "Парам3",
+					"value": "СтрокаАналитика6Валюта"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"НовыеСтроки\" я завершаю редактирование строки",
+			"start": 1620975713058,
+			"stop": 1620975713073,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НовыеСтроки"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ОК'",
+			"start": 1620975713073,
+			"stop": 1620975713073,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ОК"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Конструктор отчета'",
+			"start": 1620975713073,
+			"stop": 1620975713334,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Конструктор отчета"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ДеревоСтрокДобавитьСтроки'",
+			"start": 1620975713334,
+			"stop": 1620975713334,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДеревоСтрокДобавитьСтроки"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Добавление новых строк'",
+			"start": 1620975713334,
+			"stop": 1620975713386,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Добавление новых строк"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"НовыеСтроки\" я нажимаю на кнопку с именем 'НовыеСтрокиДобавить'",
+			"start": 1620975713386,
+			"stop": 1620975713402,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НовыеСтроки"
+				},
+				{
+					"name": "Парам2",
+					"value": "НовыеСтрокиДобавить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"НовыеСтроки\" в поле с именем 'НовыеСтрокиНаименование' я ввожу текст 'ГруппаСтрок'",
+			"start": 1620975713402,
+			"stop": 1620975713418,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НовыеСтроки"
+				},
+				{
+					"name": "Парам2",
+					"value": "НовыеСтрокиНаименование"
+				},
+				{
+					"name": "Парам3",
+					"value": "ГруппаСтрок"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"НовыеСтроки\" я завершаю редактирование строки",
+			"start": 1620975713418,
+			"stop": 1620975713418,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НовыеСтроки"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ОК'",
+			"start": 1620975713418,
+			"stop": 1620975713433,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ОК"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Конструктор отчета'",
+			"start": 1620975713433,
+			"stop": 1620975713537,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Конструктор отчета"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в табличном документе 'ПолеТабличногоДокументаМакет' я перехожу к ячейке \"R10C1\"",
+			"start": 1620975713537,
+			"stop": 1620975713537,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПолеТабличногоДокументаМакет"
+				},
+				{
+					"name": "Парам2",
+					"value": "R10C1"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ДеревоСтрокСтрокаПереместитьВверх'",
+			"start": 1620975713537,
+			"stop": 1620975713585,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДеревоСтрокСтрокаПереместитьВверх"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ДеревоСтрокСтрокаПереместитьВверх'",
+			"start": 1620975713585,
+			"stop": 1620975713736,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДеревоСтрокСтрокаПереместитьВверх"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ДеревоСтрокСтрокаПереместитьВверх'",
+			"start": 1620975713737,
+			"stop": 1620975713859,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДеревоСтрокСтрокаПереместитьВверх"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ДеревоСтрокСтрокаПереместитьВверх'",
+			"start": 1620975713859,
+			"stop": 1620975713986,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДеревоСтрокСтрокаПереместитьВверх"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ДеревоСтрокСтрокаПереместитьВверх'",
+			"start": 1620975713986,
+			"stop": 1620975714992,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДеревоСтрокСтрокаПереместитьВверх"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ДеревоСтрокСтрокаПереместитьВверх'",
+			"start": 1620975714993,
+			"stop": 1620975715112,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДеревоСтрокСтрокаПереместитьВверх"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ДеревоСтрокСтрокаПереместитьВверх'",
+			"start": 1620975715112,
+			"stop": 1620975715236,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДеревоСтрокСтрокаПереместитьВверх"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ДеревоСтрокСтрокаПереместитьВверх'",
+			"start": 1620975715236,
+			"stop": 1620975715359,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДеревоСтрокСтрокаПереместитьВверх"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ДеревоСтрокСтрокаПереместитьВниз'",
+			"start": 1620975715359,
+			"stop": 1620975715483,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДеревоСтрокСтрокаПереместитьВниз"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ДеревоСтрокСтрокаПереместитьВверх'",
+			"start": 1620975715483,
+			"stop": 1620975715607,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДеревоСтрокСтрокаПереместитьВверх"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно 'Конструктор отчета'",
+			"start": 1620975715607,
+			"stop": 1620975715715,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Конструктор отчета"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ДеревоСтрокДобавитьСтроки'",
+			"start": 1620975715715,
+			"stop": 1620975715737,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДеревоСтрокДобавитьСтроки"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Добавление новых строк'",
+			"start": 1620975715737,
+			"stop": 1620975715785,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Добавление новых строк"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"НовыеСтроки\" я нажимаю на кнопку с именем 'НовыеСтрокиДобавить'",
+			"start": 1620975715786,
+			"stop": 1620975715797,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НовыеСтроки"
+				},
+				{
+					"name": "Парам2",
+					"value": "НовыеСтрокиДобавить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"НовыеСтроки\" в поле с именем 'НовыеСтрокиНаименование' я ввожу текст 'СтрокаУдалить'",
+			"start": 1620975715797,
+			"stop": 1620975715815,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НовыеСтроки"
+				},
+				{
+					"name": "Парам2",
+					"value": "НовыеСтрокиНаименование"
+				},
+				{
+					"name": "Парам3",
+					"value": "СтрокаУдалить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"НовыеСтроки\" я завершаю редактирование строки",
+			"start": 1620975715815,
+			"stop": 1620975715819,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НовыеСтроки"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ОК'",
+			"start": 1620975715819,
+			"stop": 1620975715831,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ОК"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Конструктор отчета'",
+			"start": 1620975715831,
+			"stop": 1620975715941,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Конструктор отчета"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в табличном документе 'ПолеТабличногоДокументаМакет' я перехожу к ячейке \"R11C1\"",
+			"start": 1620975715941,
+			"stop": 1620975715945,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПолеТабличногоДокументаМакет"
+				},
+				{
+					"name": "Парам2",
+					"value": "R11C1"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'УдалитьСтроки'",
+			"start": 1620975715945,
+			"stop": 1620975715985,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "УдалитьСтроки"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ДеревоСтрокДобавитьКолонку'",
+			"start": 1620975715986,
+			"stop": 1620975716207,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДеревоСтрокДобавитьКолонку"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Добавление новых колонок'",
+			"start": 1620975716207,
+			"stop": 1620975716281,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Добавление новых колонок"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"НовыеСтроки\" я нажимаю на кнопку с именем 'НовыеСтрокиДобавить'",
+			"start": 1620975716281,
+			"stop": 1620975716296,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НовыеСтроки"
+				},
+				{
+					"name": "Парам2",
+					"value": "НовыеСтрокиДобавить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"НовыеСтроки\" в поле с именем 'НовыеСтрокиНаименование' я ввожу текст 'Сумма'",
+			"start": 1620975716296,
+			"stop": 1620975716312,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НовыеСтроки"
+				},
+				{
+					"name": "Парам2",
+					"value": "НовыеСтрокиНаименование"
+				},
+				{
+					"name": "Парам3",
+					"value": "Сумма"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"НовыеСтроки\" я завершаю редактирование строки",
+			"start": 1620975716312,
+			"stop": 1620975716312,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НовыеСтроки"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"НовыеСтроки\" я нажимаю на кнопку с именем 'НовыеСтрокиДобавить'",
+			"start": 1620975716556,
+			"stop": 1620975716556,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НовыеСтроки"
+				},
+				{
+					"name": "Парам2",
+					"value": "НовыеСтрокиДобавить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"НовыеСтроки\" в поле с именем 'НовыеСтрокиНаименование' я ввожу текст 'Количество'",
+			"start": 1620975716556,
+			"stop": 1620975716571,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НовыеСтроки"
+				},
+				{
+					"name": "Парам2",
+					"value": "НовыеСтрокиНаименование"
+				},
+				{
+					"name": "Парам3",
+					"value": "Количество"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"НовыеСтроки\" я завершаю редактирование строки",
+			"start": 1620975716571,
+			"stop": 1620975716587,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НовыеСтроки"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"НовыеСтроки\" я нажимаю на кнопку с именем 'НовыеСтрокиДобавить'",
+			"start": 1620975716587,
+			"stop": 1620975716602,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НовыеСтроки"
+				},
+				{
+					"name": "Парам2",
+					"value": "НовыеСтрокиДобавить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"НовыеСтроки\" в поле с именем 'НовыеСтрокиНаименование' я ввожу текст 'Цена'",
+			"start": 1620975716602,
+			"stop": 1620975716618,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НовыеСтроки"
+				},
+				{
+					"name": "Парам2",
+					"value": "НовыеСтрокиНаименование"
+				},
+				{
+					"name": "Парам3",
+					"value": "Цена"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"НовыеСтроки\" я завершаю редактирование строки",
+			"start": 1620975716618,
+			"stop": 1620975716618,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НовыеСтроки"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ОК'",
+			"start": 1620975716618,
+			"stop": 1620975716634,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ОК"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно 'Конструктор отчета'",
+			"start": 1620975716634,
+			"stop": 1620975717147,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Конструктор отчета"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в табличном документе 'ПолеТабличногоДокументаМакет' я перехожу к ячейке \"R1C2\"",
+			"start": 1620975717147,
+			"stop": 1620975717147,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПолеТабличногоДокументаМакет"
+				},
+				{
+					"name": "Парам2",
+					"value": "R1C2"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'КолонкаПереместитьВправо'",
+			"start": 1620975717147,
+			"stop": 1620975717197,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "КолонкаПереместитьВправо"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в табличном документе 'ПолеТабличногоДокументаМакет' я перехожу к ячейке \"R1C4\"",
+			"start": 1620975717197,
+			"stop": 1620975717319,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПолеТабличногоДокументаМакет"
+				},
+				{
+					"name": "Парам2",
+					"value": "R1C4"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'КолонкаПереместитьВлево'",
+			"start": 1620975717319,
+			"stop": 1620975717367,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "КолонкаПереместитьВлево"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно 'Конструктор отчета'",
+			"start": 1620975717367,
+			"stop": 1620975717488,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Конструктор отчета"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в табличном документе 'ПолеТабличногоДокументаМакет' я перехожу к ячейке \"R2C2\"",
+			"start": 1620975717488,
+			"stop": 1620975717488,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПолеТабличногоДокументаМакет"
+				},
+				{
+					"name": "Парам2",
+					"value": "R2C2"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в табличном документе 'ПолеТабличногоДокументаМакет' я перехожу к ячейке \"R2C2:R3C2\"",
+			"start": 1620975717504,
+			"stop": 1620975717539,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПолеТабличногоДокументаМакет"
+				},
+				{
+					"name": "Парам2",
+					"value": "R2C2:R3C2"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в табличном документе 'ПолеТабличногоДокументаМакет' я перехожу к ячейке \"R2C2:R4C2\"",
+			"start": 1620975717539,
+			"stop": 1620975717575,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПолеТабличногоДокументаМакет"
+				},
+				{
+					"name": "Парам2",
+					"value": "R2C2:R4C2"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в табличном документе 'ПолеТабличногоДокументаМакет' я перехожу к ячейке \"R2C2:R5C3\"",
+			"start": 1620975717575,
+			"stop": 1620975717614,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПолеТабличногоДокументаМакет"
+				},
+				{
+					"name": "Парам2",
+					"value": "R2C2:R5C3"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в табличном документе 'ПолеТабличногоДокументаМакет' я перехожу к ячейке \"R2C2:R6C3\"",
+			"start": 1620975717614,
+			"stop": 1620975717652,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПолеТабличногоДокументаМакет"
+				},
+				{
+					"name": "Парам2",
+					"value": "R2C2:R6C3"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в табличном документе 'ПолеТабличногоДокументаМакет' я перехожу к ячейке \"R2C2:R7C3\"",
+			"start": 1620975717652,
+			"stop": 1620975717689,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПолеТабличногоДокументаМакет"
+				},
+				{
+					"name": "Парам2",
+					"value": "R2C2:R7C3"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в табличном документе 'ПолеТабличногоДокументаМакет' я перехожу к ячейке \"R2C2:R8C3\"",
+			"start": 1620975717689,
+			"stop": 1620975717731,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПолеТабличногоДокументаМакет"
+				},
+				{
+					"name": "Парам2",
+					"value": "R2C2:R8C3"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в табличном документе 'ПолеТабличногоДокументаМакет' я перехожу к ячейке \"R2C2:R8C4\"",
+			"start": 1620975717732,
+			"stop": 1620975717766,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПолеТабличногоДокументаМакет"
+				},
+				{
+					"name": "Парам2",
+					"value": "R2C2:R8C4"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в табличном документе 'ПолеТабличногоДокументаМакет' я перехожу к ячейке \"R2C2:R9C4\"",
+			"start": 1620975717767,
+			"stop": 1620975717803,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПолеТабличногоДокументаМакет"
+				},
+				{
+					"name": "Парам2",
+					"value": "R2C2:R9C4"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в табличном документе 'ПолеТабличногоДокументаМакет' я перехожу к ячейке \"R2C2:R10C4\"",
+			"start": 1620975717804,
+			"stop": 1620975717841,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПолеТабличногоДокументаМакет"
+				},
+				{
+					"name": "Парам2",
+					"value": "R2C2:R10C4"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я выбираю пункт контекстного меню с именем 'ПолеТабличногоДокументаМакетКонтекстноеМенюУдалитьПоказатель' на элементе формы с именем \"ПолеТабличногоДокументаМакет\"",
+			"start": 1620975717842,
+			"stop": 1620975717882,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПолеТабличногоДокументаМакетКонтекстноеМенюУдалитьПоказатель"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПолеТабличногоДокументаМакет"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в табличном документе 'ПолеТабличногоДокументаМакет' я перехожу к ячейке \"R2C2\"",
+			"start": 1620975717883,
+			"stop": 1620975719029,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПолеТабличногоДокументаМакет"
+				},
+				{
+					"name": "Парам2",
+					"value": "R2C2"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в табличном документе 'ПолеТабличногоДокументаМакет' я перехожу к ячейке \"R2C2:R3C2\"",
+			"start": 1620975719030,
+			"stop": 1620975719065,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПолеТабличногоДокументаМакет"
+				},
+				{
+					"name": "Парам2",
+					"value": "R2C2:R3C2"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в табличном документе 'ПолеТабличногоДокументаМакет' я перехожу к ячейке \"R2C2:R4C2\"",
+			"start": 1620975719065,
+			"stop": 1620975719102,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПолеТабличногоДокументаМакет"
+				},
+				{
+					"name": "Парам2",
+					"value": "R2C2:R4C2"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в табличном документе 'ПолеТабличногоДокументаМакет' я перехожу к ячейке \"R2C2:R6C3\"",
+			"start": 1620975719102,
+			"stop": 1620975719140,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПолеТабличногоДокументаМакет"
+				},
+				{
+					"name": "Парам2",
+					"value": "R2C2:R6C3"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в табличном документе 'ПолеТабличногоДокументаМакет' я перехожу к ячейке \"R2C2:R7C3\"",
+			"start": 1620975719140,
+			"stop": 1620975719181,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПолеТабличногоДокументаМакет"
+				},
+				{
+					"name": "Парам2",
+					"value": "R2C2:R7C3"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в табличном документе 'ПолеТабличногоДокументаМакет' я перехожу к ячейке \"R2C2:R8C4\"",
+			"start": 1620975719181,
+			"stop": 1620975719217,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПолеТабличногоДокументаМакет"
+				},
+				{
+					"name": "Парам2",
+					"value": "R2C2:R8C4"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в табличном документе 'ПолеТабличногоДокументаМакет' я перехожу к ячейке \"R2C2:R9C4\"",
+			"start": 1620975719217,
+			"stop": 1620975719255,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПолеТабличногоДокументаМакет"
+				},
+				{
+					"name": "Парам2",
+					"value": "R2C2:R9C4"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в табличном документе 'ПолеТабличногоДокументаМакет' я перехожу к ячейке \"R2C2:R10C4\"",
+			"start": 1620975719255,
+			"stop": 1620975719293,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПолеТабличногоДокументаМакет"
+				},
+				{
+					"name": "Парам2",
+					"value": "R2C2:R10C4"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я выбираю пункт контекстного меню с именем 'ПолеТабличногоДокументаМакетКонтекстноеМенюСоздатьПоказатели' на элементе формы с именем \"ПолеТабличногоДокументаМакет\"",
+			"start": 1620975719293,
+			"stop": 1620975719330,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПолеТабличногоДокументаМакетКонтекстноеМенюСоздатьПоказатели"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПолеТабличногоДокументаМакет"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в табличном документе 'ПолеТабличногоДокументаМакет' я перехожу к ячейке \"R2C2\"",
+			"start": 1620975719330,
+			"stop": 1620975719910,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПолеТабличногоДокументаМакет"
+				},
+				{
+					"name": "Парам2",
+					"value": "R2C2"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в табличном документе 'ПолеТабличногоДокументаМакет' я перехожу к ячейке \"R2C2:R3C2\"",
+			"start": 1620975719910,
+			"stop": 1620975719949,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПолеТабличногоДокументаМакет"
+				},
+				{
+					"name": "Парам2",
+					"value": "R2C2:R3C2"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в табличном документе 'ПолеТабличногоДокументаМакет' я перехожу к ячейке \"R2C2:R4C2\"",
+			"start": 1620975719950,
+			"stop": 1620975719987,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПолеТабличногоДокументаМакет"
+				},
+				{
+					"name": "Парам2",
+					"value": "R2C2:R4C2"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в табличном документе 'ПолеТабличногоДокументаМакет' я перехожу к ячейке \"R2C2:R4C3\"",
+			"start": 1620975719987,
+			"stop": 1620975720027,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПолеТабличногоДокументаМакет"
+				},
+				{
+					"name": "Парам2",
+					"value": "R2C2:R4C3"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в табличном документе 'ПолеТабличногоДокументаМакет' я перехожу к ячейке \"R2C2:R5C3\"",
+			"start": 1620975720027,
+			"stop": 1620975720063,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПолеТабличногоДокументаМакет"
+				},
+				{
+					"name": "Парам2",
+					"value": "R2C2:R5C3"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в табличном документе 'ПолеТабличногоДокументаМакет' я перехожу к ячейке \"R2C2:R6C3\"",
+			"start": 1620975720063,
+			"stop": 1620975720100,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПолеТабличногоДокументаМакет"
+				},
+				{
+					"name": "Парам2",
+					"value": "R2C2:R6C3"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в табличном документе 'ПолеТабличногоДокументаМакет' я перехожу к ячейке \"R2C2:R7C3\"",
+			"start": 1620975720100,
+			"stop": 1620975720138,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПолеТабличногоДокументаМакет"
+				},
+				{
+					"name": "Парам2",
+					"value": "R2C2:R7C3"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в табличном документе 'ПолеТабличногоДокументаМакет' я перехожу к ячейке \"R2C2:R7C4\"",
+			"start": 1620975720138,
+			"stop": 1620975720176,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПолеТабличногоДокументаМакет"
+				},
+				{
+					"name": "Парам2",
+					"value": "R2C2:R7C4"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в табличном документе 'ПолеТабличногоДокументаМакет' я перехожу к ячейке \"R2C2:R8C4\"",
+			"start": 1620975720176,
+			"stop": 1620975720214,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПолеТабличногоДокументаМакет"
+				},
+				{
+					"name": "Парам2",
+					"value": "R2C2:R8C4"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в табличном документе 'ПолеТабличногоДокументаМакет' я перехожу к ячейке \"R2C2:R9C4\"",
+			"start": 1620975720214,
+			"stop": 1620975720252,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПолеТабличногоДокументаМакет"
+				},
+				{
+					"name": "Парам2",
+					"value": "R2C2:R9C4"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в табличном документе 'ПолеТабличногоДокументаМакет' я перехожу к ячейке \"R2C2:R10C4\"",
+			"start": 1620975720252,
+			"stop": 1620975720290,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПолеТабличногоДокументаМакет"
+				},
+				{
+					"name": "Парам2",
+					"value": "R2C2:R10C4"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я выбираю пункт контекстного меню с именем 'ПолеТабличногоДокументаМакетКонтекстноеМенюСвойства' на элементе формы с именем \"ПолеТабличногоДокументаМакет\"",
+			"start": 1620975720290,
+			"stop": 1620975720327,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПолеТабличногоДокументаМакетКонтекстноеМенюСвойства"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПолеТабличногоДокументаМакет"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Групповое изменение показателей'",
+			"start": 1620975720327,
+			"stop": 1620975720527,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Групповое изменение показателей"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я изменяю флаг с именем 'ТипЗначенияИзменить'",
+			"start": 1620975720527,
+			"stop": 1620975720527,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ТипЗначенияИзменить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем \"ТипЗначения\" я выбираю точное значение 'Число'",
+			"start": 1620975720527,
+			"stop": 1620975720557,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ТипЗначения"
+				},
+				{
+					"name": "Парам2",
+					"value": "Число"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я изменяю флаг с именем 'ВидИтогаИзменить'",
+			"start": 1620975720558,
+			"stop": 1620975720570,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ВидИтогаИзменить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем \"ВидИтога\" я выбираю точное значение 'Сумма'",
+			"start": 1620975720571,
+			"stop": 1620975720595,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ВидИтога"
+				},
+				{
+					"name": "Парам2",
+					"value": "Сумма"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаЗаписатьИЗакрыть'",
+			"start": 1620975721974,
+			"stop": 1620975721984,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаЗаписатьИЗакрыть"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно 'Конструктор отчета'",
+			"start": 1620975721985,
+			"stop": 1620975722458,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Конструктор отчета"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ДеревоСтрокДобавитьКолонку'",
+			"start": 1620975722458,
+			"stop": 1620975722474,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДеревоСтрокДобавитьКолонку"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Добавление новых колонок'",
+			"start": 1620975722474,
+			"stop": 1620975722524,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Добавление новых колонок"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"НовыеСтроки\" я нажимаю на кнопку с именем 'НовыеСтрокиДобавить'",
+			"start": 1620975722524,
+			"stop": 1620975722539,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НовыеСтроки"
+				},
+				{
+					"name": "Парам2",
+					"value": "НовыеСтрокиДобавить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"НовыеСтроки\" в поле с именем 'НовыеСтрокиНаименование' я ввожу текст 'СтолбецУдалить'",
+			"start": 1620975722539,
+			"stop": 1620975722555,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НовыеСтроки"
+				},
+				{
+					"name": "Парам2",
+					"value": "НовыеСтрокиНаименование"
+				},
+				{
+					"name": "Парам3",
+					"value": "СтолбецУдалить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"НовыеСтроки\" я завершаю редактирование строки",
+			"start": 1620975722555,
+			"stop": 1620975722555,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НовыеСтроки"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ОК'",
+			"start": 1620975722555,
+			"stop": 1620975722570,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ОК"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Конструктор отчета'",
+			"start": 1620975722570,
+			"stop": 1620975722798,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Конструктор отчета"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в табличном документе 'ПолеТабличногоДокументаМакет' я перехожу к ячейке \"R1C5\"",
+			"start": 1620975722798,
+			"stop": 1620975722801,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПолеТабличногоДокументаМакет"
+				},
+				{
+					"name": "Парам2",
+					"value": "R1C5"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'УдалитьКолоки'",
+			"start": 1620975722802,
+			"stop": 1620975722846,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "УдалитьКолоки"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно 'Конструктор отчета'",
+			"start": 1620975722846,
+			"stop": 1620975723006,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Конструктор отчета"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ОткрытьНастройкиРеквизитовСтрок'",
+			"start": 1620975723006,
+			"stop": 1620975723015,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ОткрытьНастройкиРеквизитовСтрок"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Реквизиты строк'",
+			"start": 1620975723015,
+			"stop": 1620975723095,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Реквизиты строк"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"РеквизитыСтрок\" я нажимаю на кнопку с именем 'РеквизитыСтрокДобавить'",
+			"start": 1620975723095,
+			"stop": 1620975723104,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "РеквизитыСтрок"
+				},
+				{
+					"name": "Парам2",
+					"value": "РеквизитыСтрокДобавить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Выбор доступного реквизита '",
+			"start": 1620975723104,
+			"stop": 1620975723260,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Выбор доступного реквизита "
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"КомпоновщикНастроекНастройкиПорядокДоступныеПоляПорядка\" я перехожу к строке:",
+			"start": 1620975723260,
+			"stop": 1620975723276,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "КомпоновщикНастроекНастройкиПорядокДоступныеПоляПорядка"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "e426289a-b6e6-4b10-bff9-71714b6c8a51-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"КомпоновщикНастроекНастройкиПорядокДоступныеПоляПорядка\" я выбираю текущую строку",
+			"start": 1620975723276,
+			"stop": 1620975723276,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "КомпоновщикНастроекНастройкиПорядокДоступныеПоляПорядка"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Реквизиты строк'",
+			"start": 1620975723276,
+			"stop": 1620975723307,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Реквизиты строк"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"РеквизитыСтрок\" я завершаю редактирование строки",
+			"start": 1620975723307,
+			"stop": 1620975723311,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "РеквизитыСтрок"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаВыбрать'",
+			"start": 1620975723311,
+			"stop": 1620975723311,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаВыбрать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Конструктор отчета'",
+			"start": 1620975723311,
+			"stop": 1620975723441,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Конструктор отчета"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ОткрытьНастройкиСвойствПоказателей'",
+			"start": 1620975723441,
+			"stop": 1620975723441,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ОткрытьНастройкиСвойствПоказателей"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Реквизиты показателей'",
+			"start": 1620975723441,
+			"stop": 1620975723515,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Реквизиты показателей"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"РеквизитыПоказателей\" я нажимаю на кнопку с именем 'РеквизитыПоказателейДобавить'",
+			"start": 1620975723515,
+			"stop": 1620975723531,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "РеквизитыПоказателей"
+				},
+				{
+					"name": "Парам2",
+					"value": "РеквизитыПоказателейДобавить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Выбор доступного реквизита '",
+			"start": 1620975723531,
+			"stop": 1620975723611,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Выбор доступного реквизита "
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"КомпоновщикНастроекНастройкиПорядокДоступныеПоляПорядка\" я перехожу к строке:",
+			"start": 1620975723611,
+			"stop": 1620975723626,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "КомпоновщикНастроекНастройкиПорядокДоступныеПоляПорядка"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "d6dca17e-9d81-4d49-a569-6b93f6fa10e1-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"КомпоновщикНастроекНастройкиПорядокДоступныеПоляПорядка\" я выбираю текущую строку",
+			"start": 1620975723626,
+			"stop": 1620975723626,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "КомпоновщикНастроекНастройкиПорядокДоступныеПоляПорядка"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Реквизиты показателей'",
+			"start": 1620975723642,
+			"stop": 1620975723657,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Реквизиты показателей"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"РеквизитыПоказателей\" я завершаю редактирование строки",
+			"start": 1620975723657,
+			"stop": 1620975723662,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "РеквизитыПоказателей"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаВыбрать'",
+			"start": 1620975723662,
+			"stop": 1620975723662,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаВыбрать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Конструктор отчета'",
+			"start": 1620975723662,
+			"stop": 1620975723813,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Конструктор отчета"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ВыводитьПомеченныеНаУдаление'",
+			"start": 1620975723814,
+			"stop": 1620975723823,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ВыводитьПомеченныеНаУдаление"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда табличный документ \"ПолеТабличногоДокументаМакет\" равен:",
+			"start": 1620975723826,
+			"stop": 1620975725062,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПолеТабличногоДокументаМакет"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "f93ee976-bd5d-4795-aa90-6d2efc03c053-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно 'Конструктор отчета'",
+			"start": 1620975725063,
+			"stop": 1620975725064,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Конструктор отчета"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ОткрытьНастройкиРеквизитовСтрок'",
+			"start": 1620975725064,
+			"stop": 1620975725064,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ОткрытьНастройкиРеквизитовСтрок"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Реквизиты строк'",
+			"start": 1620975725064,
+			"stop": 1620975725119,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Реквизиты строк"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"РеквизитыСтрок\" я перехожу к строке:",
+			"start": 1620975725119,
+			"stop": 1620975725119,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "РеквизитыСтрок"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "f7e9bc8a-73bc-4fd8-8932-449f83e8832b-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"РеквизитыСтрок\" я нажимаю на кнопку с именем 'РеквизитыСтрокУдалить'",
+			"start": 1620975725119,
+			"stop": 1620975725134,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "РеквизитыСтрок"
+				},
+				{
+					"name": "Парам2",
+					"value": "РеквизитыСтрокУдалить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаВыбрать'",
+			"start": 1620975725134,
+			"stop": 1620975725153,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаВыбрать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Конструктор отчета'",
+			"start": 1620975725153,
+			"stop": 1620975725255,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Конструктор отчета"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ОткрытьНастройкиСвойствПоказателей'",
+			"start": 1620975725255,
+			"stop": 1620975725271,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ОткрытьНастройкиСвойствПоказателей"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Реквизиты показателей'",
+			"start": 1620975725271,
+			"stop": 1620975725321,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Реквизиты показателей"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"РеквизитыПоказателей\" я нажимаю на кнопку с именем 'РеквизитыПоказателейУдалить'",
+			"start": 1620975725321,
+			"stop": 1620975725321,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "РеквизитыПоказателей"
+				},
+				{
+					"name": "Парам2",
+					"value": "РеквизитыПоказателейУдалить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаВыбрать'",
+			"start": 1620975725321,
+			"stop": 1620975725346,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаВыбрать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Конструктор отчета'",
+			"start": 1620975725346,
+			"stop": 1620975725448,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Конструктор отчета"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ВыводитьПомеченныеНаУдаление'",
+			"start": 1620975725448,
+			"stop": 1620975725464,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ВыводитьПомеченныеНаУдаление"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда табличный документ \"ПолеТабличногоДокументаМакет\" равен:",
+			"start": 1620975725464,
+			"stop": 1620975727131,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПолеТабличногоДокументаМакет"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "10729f75-44c6-477b-b0f3-1eb13619b393-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "01.04. Работа в контрукторе отчета - Настройка структуры отчета"
+		},
+		{
+			"name": "feature",
+			"value": "01.04. Работа в контрукторе отчета - Настройка структуры отчета"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "VA-Tests"
+		},
+		{
+			"name": "host",
+			"value": "onyanov-v"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

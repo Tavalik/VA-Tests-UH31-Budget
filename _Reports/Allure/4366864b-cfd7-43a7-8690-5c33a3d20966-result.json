@@ -1,0 +1,91 @@
+{
+	"uuid": "4366864b-cfd7-43a7-8690-5c33a3d20966",
+	"historyId": "Проверка создание видов отчетов.01.00 Установка значений констант",
+	"name": "01.00 Установка значений констант",
+	"fullName": null,
+	"start": 1620975684277,
+	"stop": 1620975698130,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И я устанавливаю в константу \"ИспользоватьРасширенныйАлгоритмПересчетаПоказателей\" значение \"Истина\"",
+			"start": 1620975698023,
+			"stop": 1620975698115,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ИспользоватьРасширенныйАлгоритмПересчетаПоказателей"
+				},
+				{
+					"name": "Парам2",
+					"value": "Истина"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я устанавливаю в константу \"ИспользоватьРежимТрассировкиПересчетаПоказателей\" значение \"Истина\"",
+			"start": 1620975698115,
+			"stop": 1620975698130,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ИспользоватьРежимТрассировкиПересчетаПоказателей"
+				},
+				{
+					"name": "Парам2",
+					"value": "Истина"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "01.00 Установка значений констант"
+		},
+		{
+			"name": "feature",
+			"value": "01.00 Установка значений констант"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "VA-Tests"
+		},
+		{
+			"name": "host",
+			"value": "onyanov-v"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

@@ -1,0 +1,42 @@
+{
+	"uuid": "ae22a379-1e56-41cb-a5f8-19f601fe1e51",
+	"name": "Контекст_01.06. Работа в контрукторе отчета - Ввод формул",
+	"description": "",
+	"children": [
+		"5ad8f35f-d6fc-40ac-a30c-a54b93237c1e"
+	],
+	"befores": [
+		{
+			"name": "Дано Я открыл новый сеанс TestClient или подключил уже существующий",
+			"start": 1620975764990,
+			"stop": 1620975765119,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрыл все окна клиентского приложения",
+			"start": 1620975765358,
+			"stop": 1620975765600,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

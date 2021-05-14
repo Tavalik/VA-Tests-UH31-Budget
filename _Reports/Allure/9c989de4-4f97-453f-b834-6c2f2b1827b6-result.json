@@ -1,0 +1,3753 @@
+{
+	"uuid": "9c989de4-4f97-453f-b834-6c2f2b1827b6",
+	"historyId": "Проверка создание видов отчетов.01.09. Создание Регламента подготовки отчетности",
+	"name": "01.09. Создание Регламента подготовки отчетности",
+	"fullName": null,
+	"start": 1620975797120,
+	"stop": 1620975802029,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false,
+		"message": "В таблице <Список> нет строк для выбора.",
+		"trace": "{ВнешняяОбработка.РаботаСИнтерфейсом.Форма.Форма.Форма(3439)}: В таблице <Список> нет строк для выбора.\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: Виды отчетов\n        ИмяАктивнойФормы: Справочник.ВидыОтчетов.ФормаВыбораГруппы\n        ИмяФичи: Проверка создание видов отчетов\n        ИмяСценария: 01.09. Создание Регламента подготовки отчетности\n        НомерСтрокиДерева: 784\n        НомерСтрокиФичи: 950\n        ПолнйПутьКФиче: D:\\VA-Tests\\СозданиеВидаЭкземпляраОтчета1.feature\n        ИмяФайла: C:/Commons/rep/vanessa-automation/features/Libraries/UITestRunner/step_definitions/РаботаСИнтерфейсом.epf\n        ИмяПроцедуры: ВТаблицеЯВыбираюТекущуюСтроку\n        ИмяРаннера: onyanov-v\n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: Srvr=\"onyanov-v:1541\";Ref=\"Auto_ERPUH31_VA\";\n        PIDКлиентаТестирования: 3872\n        ВерсияVA: ver 1.2.036.1\n        ВерсияПлатформы: 8.3.17.1851\n        РежимСовместимостиTestManager: Версия8_3_16\n        ДатаВремяОшибки: 14.05.2021 10:03:22"
+	},
+	"status": "failed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И В командном интерфейсе я выбираю 'Бюджетирование, отчетность и анализ' 'Регламенты подготовки отчетности'",
+			"start": 1620975797633,
+			"stop": 1620975797668,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Бюджетирование, отчетность и анализ"
+				},
+				{
+					"name": "Парам2",
+					"value": "Регламенты подготовки отчетности"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Регламенты подготовки отчетности'",
+			"start": 1620975797668,
+			"stop": 1620975797861,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Регламенты подготовки отчетности"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаНайти'",
+			"start": 1620975797861,
+			"stop": 1620975797869,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаНайти"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Найти'",
+			"start": 1620975797869,
+			"stop": 1620975797914,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Найти"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем \"FieldSelector\" я выбираю точное значение 'Наименование'",
+			"start": 1620975798123,
+			"stop": 1620975798139,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "FieldSelector"
+				},
+				{
+					"name": "Парам2",
+					"value": "Наименование"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я меняю значение переключателя с именем 'CompareType' на 'По точному совпадению'",
+			"start": 1620975798139,
+			"stop": 1620975798153,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "CompareType"
+				},
+				{
+					"name": "Парам2",
+					"value": "По точному совпадению"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'Pattern' я ввожу текст 'ВА - Основной регламент'",
+			"start": 1620975798154,
+			"stop": 1620975798164,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Pattern"
+				},
+				{
+					"name": "Парам2",
+					"value": "ВА - Основной регламент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'Find'",
+			"start": 1620975798164,
+			"stop": 1620975798179,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Find"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Пока в таблице \"Список\" количество строк \"больше\" 0 Тогда",
+			"start": 1620975798179,
+			"stop": 1620975798245,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				},
+				{
+					"name": "Парам2",
+					"value": "больше"
+				},
+				{
+					"name": "Парам3",
+					"value": 0
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Регламенты подготовки отчетности'",
+			"start": 1620975798245,
+			"stop": 1620975798245,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Регламенты подготовки отчетности"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю окно 'Регламенты подготовки отчетности'",
+			"start": 1620975798245,
+			"stop": 1620975798245,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Регламенты подготовки отчетности"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И В командном интерфейсе я выбираю 'Бюджетирование, отчетность и анализ' 'Регламенты подготовки отчетности'",
+			"start": 1620975798245,
+			"stop": 1620975798298,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Бюджетирование, отчетность и анализ"
+				},
+				{
+					"name": "Парам2",
+					"value": "Регламенты подготовки отчетности"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Регламенты подготовки отчетности'",
+			"start": 1620975798298,
+			"stop": 1620975798379,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Регламенты подготовки отчетности"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаСоздать'",
+			"start": 1620975798379,
+			"stop": 1620975798395,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаСоздать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно '*  от * (Создание)'",
+			"start": 1620975798395,
+			"stop": 1620975799875,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "*  от * (Создание)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'Наименование' я ввожу текст 'ВА - Основной регламент'",
+			"start": 1620975799875,
+			"stop": 1620975799880,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Наименование"
+				},
+				{
+					"name": "Парам2",
+					"value": "ВА - Основной регламент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'Родитель' я ввожу текст ''",
+			"start": 1620975799881,
+			"stop": 1620975799885,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Родитель"
+				},
+				{
+					"name": "Парам2",
+					"value": ""
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку выбора у поля с именем \"ВидОтчета\"",
+			"start": 1620975799885,
+			"stop": 1620975799920,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ВидОтчета"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Виды отчетов'",
+			"start": 1620975799921,
+			"stop": 1620975800049,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Виды отчетов"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я выбираю пункт контекстного меню с именем 'СписокКонтекстноеМенюНайти' на элементе формы с именем \"Список\"",
+			"start": 1620975800049,
+			"stop": 1620975800065,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СписокКонтекстноеМенюНайти"
+				},
+				{
+					"name": "Парам2",
+					"value": "Список"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Найти'",
+			"start": 1620975800065,
+			"stop": 1620975800106,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Найти"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'Pattern' я ввожу текст 'ВА1 - Группа отчетов'",
+			"start": 1620975800106,
+			"stop": 1620975800121,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Pattern"
+				},
+				{
+					"name": "Парам2",
+					"value": "ВА1 - Группа отчетов"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'Find'",
+			"start": 1620975800121,
+			"stop": 1620975800138,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Find"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Виды отчетов'",
+			"start": 1620975800138,
+			"stop": 1620975800192,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Виды отчетов"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"Список\" я активизирую поле с именем \"Наименование\"",
+			"start": 1620975800192,
+			"stop": 1620975800192,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				},
+				{
+					"name": "Парам2",
+					"value": "Наименование"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"Список\" я выбираю текущую строку",
+			"start": 1620975800192,
+			"stop": 1620975802027,
+			"status": "failed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false,
+				"message": "В таблице <Список> нет строк для выбора.",
+				"trace": "{ВнешняяОбработка.РаботаСИнтерфейсом.Форма.Форма.Форма(3439)}: В таблице <Список> нет строк для выбора.\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: Виды отчетов\n        ИмяАктивнойФормы: Справочник.ВидыОтчетов.ФормаВыбораГруппы\n        ИмяФичи: Проверка создание видов отчетов\n        ИмяСценария: 01.09. Создание Регламента подготовки отчетности\n        НомерСтрокиДерева: 784\n        НомерСтрокиФичи: 950\n        ПолнйПутьКФиче: D:\\VA-Tests\\СозданиеВидаЭкземпляраОтчета1.feature\n        ИмяФайла: C:/Commons/rep/vanessa-automation/features/Libraries/UITestRunner/step_definitions/РаботаСИнтерфейсом.epf\n        ИмяПроцедуры: ВТаблицеЯВыбираюТекущуюСтроку\n        ИмяРаннера: onyanov-v\n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: Srvr=\"onyanov-v:1541\";Ref=\"Auto_ERPUH31_VA\";\n        PIDКлиентаТестирования: 3872\n        ВерсияVA: ver 1.2.036.1\n        ВерсияПлатформы: 8.3.17.1851\n        РежимСовместимостиTestManager: Версия8_3_16\n        ДатаВремяОшибки: 14.05.2021 10:03:22"
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно '*  от * (Создание) *'",
+			"start": 1620975802027,
+			"stop": 1620975802027,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "*  от * (Создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я устанавливаю флаг с именем 'РежимМногопериодныхУОП'",
+			"start": 1620975802027,
+			"stop": 1620975802027,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "РежимМногопериодныхУОП"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я устанавливаю флаг с именем 'РежимМногопериодныхУОП'",
+			"start": 1620975802027,
+			"stop": 1620975802027,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "РежимМногопериодныхУОП"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к закладке с именем \"НастройкаПериметра\"",
+			"start": 1620975802027,
+			"stop": 1620975802027,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НастройкаПериметра"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"СтруктураГруппы\" я нажимаю на кнопку с именем 'СтруктураГруппыОчиститьОрганизационныеЕдиницы'",
+			"start": 1620975802027,
+			"stop": 1620975802027,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтруктураГруппы"
+				},
+				{
+					"name": "Парам2",
+					"value": "СтруктураГруппыОчиститьОрганизационныеЕдиницы"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно '*  от * (Создание) *'",
+			"start": 1620975802027,
+			"stop": 1620975802027,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "*  от * (Создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"СтруктураГруппы\" я нажимаю на кнопку с именем 'СтруктураГруппыПодборОрганизаций'",
+			"start": 1620975802027,
+			"stop": 1620975802027,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтруктураГруппы"
+				},
+				{
+					"name": "Парам2",
+					"value": "СтруктураГруппыПодборОрганизаций"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ОрганизационныеЕдиницыНайти'",
+			"start": 1620975802027,
+			"stop": 1620975802027,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ОрганизационныеЕдиницыНайти"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Найти'",
+			"start": 1620975802027,
+			"stop": 1620975802027,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Найти"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем \"Pattern\" я выбираю по строке 'Управляющая компания'",
+			"start": 1620975802027,
+			"stop": 1620975802027,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Pattern"
+				},
+				{
+					"name": "Парам2",
+					"value": "Управляющая компания"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'Find'",
+			"start": 1620975802027,
+			"stop": 1620975802027,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Find"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно '*  от * (Создание) *'",
+			"start": 1620975802027,
+			"stop": 1620975802027,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "*  от * (Создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ОрганизационныеЕдиницыКопироватьСИерархией'",
+			"start": 1620975802027,
+			"stop": 1620975802027,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ОрганизационныеЕдиницыКопироватьСИерархией"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно '*  от * (Создание) *'",
+			"start": 1620975802027,
+			"stop": 1620975802027,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "*  от * (Создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я изменяю флаг с именем 'ИспользоватьПериметры'",
+			"start": 1620975802027,
+			"stop": 1620975802027,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ИспользоватьПериметры"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"СтруктураГруппы\" я нажимаю на кнопку с именем 'СтруктураГруппыПодборОрганизаций'",
+			"start": 1620975802027,
+			"stop": 1620975802027,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтруктураГруппы"
+				},
+				{
+					"name": "Парам2",
+					"value": "СтруктураГруппыПодборОрганизаций"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"СтруктураГруппы\" я разворачиваю строку:",
+			"start": 1620975802027,
+			"stop": 1620975802027,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтруктураГруппы"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "7d9d0cae-d5d1-4117-83c4-ee3c53832036-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"СтруктураГруппы\" я активизирую поле с именем \"СтруктураГруппыОрганизационнаяЕдиница\"",
+			"start": 1620975802027,
+			"stop": 1620975802027,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтруктураГруппы"
+				},
+				{
+					"name": "Парам2",
+					"value": "СтруктураГруппыОрганизационнаяЕдиница"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"СтруктураГруппы\" я нажимаю на кнопку с именем 'СтруктураГруппыПодборОрганизаций'",
+			"start": 1620975802027,
+			"stop": 1620975802027,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтруктураГруппы"
+				},
+				{
+					"name": "Парам2",
+					"value": "СтруктураГруппыПодборОрганизаций"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"СтруктураГруппы\" я перехожу к строке:",
+			"start": 1620975802027,
+			"stop": 1620975802027,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтруктураГруппы"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "05a91567-5b59-43b2-9ac6-e7331787a185-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"СтруктураГруппы\" я нажимаю на кнопку с именем 'СтруктураГруппыКоманднаяПанельПереместитьВверх'",
+			"start": 1620975802027,
+			"stop": 1620975802027,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтруктураГруппы"
+				},
+				{
+					"name": "Парам2",
+					"value": "СтруктураГруппыКоманднаяПанельПереместитьВверх"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"СтруктураГруппы\" я нажимаю на кнопку с именем 'СтруктураГруппыКоманднаяПанельПереместитьВверх'",
+			"start": 1620975802027,
+			"stop": 1620975802027,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтруктураГруппы"
+				},
+				{
+					"name": "Парам2",
+					"value": "СтруктураГруппыКоманднаяПанельПереместитьВверх"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"СтруктураГруппы\" я нажимаю на кнопку с именем 'СтруктураГруппыКоманднаяПанельПереместитьВверх'",
+			"start": 1620975802027,
+			"stop": 1620975802027,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтруктураГруппы"
+				},
+				{
+					"name": "Парам2",
+					"value": "СтруктураГруппыКоманднаяПанельПереместитьВверх"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"СтруктураГруппы\" я перехожу к строке:",
+			"start": 1620975802027,
+			"stop": 1620975802027,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтруктураГруппы"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "13347e9a-736c-4c47-b7b5-192fa7398f2c-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"СтруктураГруппы\" я нажимаю на кнопку с именем 'СтруктураГруппыКоманднаяПанельПереместитьВниз'",
+			"start": 1620975802027,
+			"stop": 1620975802027,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтруктураГруппы"
+				},
+				{
+					"name": "Парам2",
+					"value": "СтруктураГруппыКоманднаяПанельПереместитьВниз"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"СтруктураГруппы\" я нажимаю на кнопку с именем 'СтруктураГруппыКоманднаяПанельПереместитьВниз'",
+			"start": 1620975802027,
+			"stop": 1620975802027,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтруктураГруппы"
+				},
+				{
+					"name": "Парам2",
+					"value": "СтруктураГруппыКоманднаяПанельПереместитьВниз"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаЗаписать'",
+			"start": 1620975802027,
+			"stop": 1620975802027,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаЗаписать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'ВА - Основной регламент  от * (Регламент подготовки отчетности)'",
+			"start": 1620975802027,
+			"stop": 1620975802027,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ВА - Основной регламент  от * (Регламент подготовки отчетности)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"СтруктураГруппы\" я нажимаю на кнопку с именем 'ФормаСоставИнвесторов'",
+			"start": 1620975802027,
+			"stop": 1620975802027,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтруктураГруппы"
+				},
+				{
+					"name": "Парам2",
+					"value": "ФормаСоставИнвесторов"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Структура владения'",
+			"start": 1620975802027,
+			"stop": 1620975802027,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Структура владения"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю окно 'Структура владения'",
+			"start": 1620975802027,
+			"stop": 1620975802027,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Структура владения"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'ВА - Основной регламент  от * (Регламент подготовки отчетности)'",
+			"start": 1620975802027,
+			"stop": 1620975802027,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ВА - Основной регламент  от * (Регламент подготовки отчетности)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"СтруктураГруппы\" я нажимаю на кнопку с именем 'СтруктураГруппыСправочникВерсииРегламентовПодготовкиОтчетностиИнвестиции'",
+			"start": 1620975802027,
+			"stop": 1620975802027,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтруктураГруппы"
+				},
+				{
+					"name": "Парам2",
+					"value": "СтруктураГруппыСправочникВерсииРегламентовПодготовкиОтчетностиИнвестиции"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Движение инвестиций'",
+			"start": 1620975802027,
+			"stop": 1620975802027,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Движение инвестиций"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю окно 'Движение инвестиций'",
+			"start": 1620975802027,
+			"stop": 1620975802027,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Движение инвестиций"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'ВА - Основной регламент  от * (Регламент подготовки отчетности)'",
+			"start": 1620975802027,
+			"stop": 1620975802027,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ВА - Основной регламент  от * (Регламент подготовки отчетности)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"СтруктураГруппы\" я нажимаю на кнопку с именем 'СтруктураГруппыОтчетОрганизационныеСтруктурыРегламентаОрганизационнаяСтруктураДиаграмма'",
+			"start": 1620975802027,
+			"stop": 1620975802027,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтруктураГруппы"
+				},
+				{
+					"name": "Парам2",
+					"value": "СтруктураГруппыОтчетОрганизационныеСтруктурыРегламентаОрганизационнаяСтруктураДиаграмма"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Организационная структура кратко'",
+			"start": 1620975802027,
+			"stop": 1620975802027,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Организационная структура кратко"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю окно 'Организационная структура кратко'",
+			"start": 1620975802027,
+			"stop": 1620975802027,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Организационная структура кратко"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'ВА - Основной регламент  от * (Регламент подготовки отчетности)'",
+			"start": 1620975802027,
+			"stop": 1620975802027,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ВА - Основной регламент  от * (Регламент подготовки отчетности)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"СтруктураГруппы\" я нажимаю на кнопку с именем 'СтруктураГруппыОтчетОрганизационныеСтруктурыРегламентаОрганизационнаяСтруктураТаблица'",
+			"start": 1620975802027,
+			"stop": 1620975802027,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтруктураГруппы"
+				},
+				{
+					"name": "Парам2",
+					"value": "СтруктураГруппыОтчетОрганизационныеСтруктурыРегламентаОрганизационнаяСтруктураТаблица"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Организационная структура кратко'",
+			"start": 1620975802027,
+			"stop": 1620975802027,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Организационная структура кратко"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю окно 'Организационная структура кратко'",
+			"start": 1620975802027,
+			"stop": 1620975802027,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Организационная структура кратко"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'ВА - Основной регламент  от * (Регламент подготовки отчетности)'",
+			"start": 1620975802027,
+			"stop": 1620975802027,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ВА - Основной регламент  от * (Регламент подготовки отчетности)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаДокументУправлениеПериодомСценарияДокументыУправленияОтчетнымПериодом'",
+			"start": 1620975802027,
+			"stop": 1620975802027,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаДокументУправлениеПериодомСценарияДокументыУправленияОтчетнымПериодом"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Управление отчетным периодом'",
+			"start": 1620975802027,
+			"stop": 1620975802027,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Управление отчетным периодом"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю окно 'Управление отчетным периодом'",
+			"start": 1620975802027,
+			"stop": 1620975802027,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Управление отчетным периодом"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'ВА - Основной регламент  от * (Регламент подготовки отчетности)'",
+			"start": 1620975802027,
+			"stop": 1620975802027,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ВА - Основной регламент  от * (Регламент подготовки отчетности)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И В текущем окне я нажимаю кнопку командного интерфейса 'Правила заполнения'",
+			"start": 1620975802027,
+			"stop": 1620975802027,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Правила заполнения"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в табличном документе 'ПолеНастройки' я перехожу к ячейке \"R5C3\"",
+			"start": 1620975802027,
+			"stop": 1620975802027,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПолеНастройки"
+				},
+				{
+					"name": "Парам2",
+					"value": "R5C3"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в табличном документе 'ПолеНастройки' я делаю двойной клик на текущей ячейке",
+			"start": 1620975802027,
+			"stop": 1620975802027,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПолеНастройки"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Настройка правил заполнения отчетов'",
+			"start": 1620975802027,
+			"stop": 1620975802027,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Настройка правил заполнения отчетов"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем \"СпособФормированияОтчета\" я выбираю точное значение 'Ручное заполнение'",
+			"start": 1620975802027,
+			"stop": 1620975802027,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СпособФормированияОтчета"
+				},
+				{
+					"name": "Парам2",
+					"value": "Ручное заполнение"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаЗаписатьИЗакрыть'",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаЗаписатьИЗакрыть"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'ВА - Основной регламент  от * (Регламент подготовки отчетности)'",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ВА - Основной регламент  от * (Регламент подготовки отчетности)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в табличном документе 'ПолеНастройки' я перехожу к ячейке \"R12C3\"",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПолеНастройки"
+				},
+				{
+					"name": "Парам2",
+					"value": "R12C3"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в табличном документе 'ПолеНастройки' я делаю двойной клик на текущей ячейке",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПолеНастройки"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Настройка правил заполнения отчетов'",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Настройка правил заполнения отчетов"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем \"СпособФормированияОтчета\" я выбираю точное значение 'Ручное заполнение'",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СпособФормированияОтчета"
+				},
+				{
+					"name": "Парам2",
+					"value": "Ручное заполнение"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаЗаписатьИЗакрыть'",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаЗаписатьИЗакрыть"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'ВА - Основной регламент  от * (Регламент подготовки отчетности)'",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ВА - Основной регламент  от * (Регламент подготовки отчетности)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в табличном документе 'ПолеНастройки' я перехожу к ячейке \"R19C3\"",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПолеНастройки"
+				},
+				{
+					"name": "Парам2",
+					"value": "R19C3"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в табличном документе 'ПолеНастройки' я делаю двойной клик на текущей ячейке",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПолеНастройки"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Настройка правил заполнения отчетов'",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Настройка правил заполнения отчетов"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем \"СпособФормированияОтчета\" я выбираю точное значение 'Ручное заполнение'",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СпособФормированияОтчета"
+				},
+				{
+					"name": "Парам2",
+					"value": "Ручное заполнение"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаЗаписатьИЗакрыть'",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаЗаписатьИЗакрыть"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'ВА - Основной регламент  от * (Регламент подготовки отчетности)'",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ВА - Основной регламент  от * (Регламент подготовки отчетности)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в табличном документе 'ПолеНастройки' я перехожу к ячейке \"R26C3\"",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПолеНастройки"
+				},
+				{
+					"name": "Парам2",
+					"value": "R26C3"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в табличном документе 'ПолеНастройки' я делаю двойной клик на текущей ячейке",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПолеНастройки"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Настройка правил заполнения отчетов'",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Настройка правил заполнения отчетов"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем \"СпособФормированияОтчета\" я выбираю точное значение 'Ручное заполнение'",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СпособФормированияОтчета"
+				},
+				{
+					"name": "Парам2",
+					"value": "Ручное заполнение"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаЗаписатьИЗакрыть'",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаЗаписатьИЗакрыть"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'ВА - Основной регламент  от * (Регламент подготовки отчетности)'",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ВА - Основной регламент  от * (Регламент подготовки отчетности)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в табличном документе 'ПолеНастройки' я перехожу к ячейке \"R33C3\"",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПолеНастройки"
+				},
+				{
+					"name": "Парам2",
+					"value": "R33C3"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в табличном документе 'ПолеНастройки' я делаю двойной клик на текущей ячейке",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПолеНастройки"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Настройка правил заполнения отчетов'",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Настройка правил заполнения отчетов"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем \"СпособФормированияОтчета\" я выбираю точное значение 'Ручное заполнение'",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СпособФормированияОтчета"
+				},
+				{
+					"name": "Парам2",
+					"value": "Ручное заполнение"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаЗаписатьИЗакрыть'",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаЗаписатьИЗакрыть"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'ВА - Основной регламент  от * (Регламент подготовки отчетности)'",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ВА - Основной регламент  от * (Регламент подготовки отчетности)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаПоказатьОтборы'",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаПоказатьОтборы"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаПоказатьОтборы'",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаПоказатьОтборы"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаПрименитьНастройки'",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаПрименитьНастройки"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаУтвердитьБланкиИПравила'",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаУтвердитьБланкиИПравила"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И В текущем окне я нажимаю кнопку командного интерфейса 'Основное'",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Основное"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к закладке с именем \"ГруппаСтраницаОсновная\"",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ГруппаСтраницаОсновная"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаЗаписатьИЗакрыть'",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаЗаписатьИЗакрыть"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я жду закрытия окна 'ВА - Основной регламент  от * (Регламент подготовки отчетности)' в течение 10 секунд",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ВА - Основной регламент  от * (Регламент подготовки отчетности)"
+				},
+				{
+					"name": "Парам2",
+					"value": 10
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Регламенты подготовки отчетности'",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Регламенты подготовки отчетности"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"Список\" я выбираю текущую строку",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'ВА - Основной регламент  от * (Регламент подготовки отчетности)'",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ВА - Основной регламент  от * (Регламент подготовки отчетности)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к закладке с именем \"НастройкаПериметра\"",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НастройкаПериметра"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к закладке с именем \"ГруппаСтраницаОсновная\"",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ГруппаСтраницаОсновная"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'ВА - Основной регламент  от * (Регламент подготовки отчетности)'",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ВА - Основной регламент  от * (Регламент подготовки отчетности)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"СтруктураГруппы\" я перехожу к строке:",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтруктураГруппы"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "df17c6c4-e893-4f25-9cd3-7ee6e178df40-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"СтруктураГруппы\" я активизирую поле с именем \"СтруктураГруппыДополнительныеВалюты\"",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтруктураГруппы"
+				},
+				{
+					"name": "Парам2",
+					"value": "СтруктураГруппыДополнительныеВалюты"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"СтруктураГруппы\" я выбираю текущую строку",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтруктураГруппы"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"СтруктураГруппы\" я нажимаю кнопку выбора у реквизита с именем \"СтруктураГруппыДополнительныеВалюты\"",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтруктураГруппы"
+				},
+				{
+					"name": "Парам2",
+					"value": "СтруктураГруппыДополнительныеВалюты"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Список валют'",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список валют"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ДополнительныеВалютыДобавить'",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДополнительныеВалютыДобавить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"ДополнительныеВалюты\" из выпадающего списка с именем \"ДополнительныеВалютыВалюта\" я выбираю точное значение 'EUR'",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДополнительныеВалюты"
+				},
+				{
+					"name": "Парам2",
+					"value": "ДополнительныеВалютыВалюта"
+				},
+				{
+					"name": "Парам3",
+					"value": "EUR"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"ДополнительныеВалюты\" я завершаю редактирование строки",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДополнительныеВалюты"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ДополнительныеВалютыДобавить'",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДополнительныеВалютыДобавить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"ДополнительныеВалюты\" из выпадающего списка с именем \"ДополнительныеВалютыВалюта\" я выбираю точное значение 'USD'",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДополнительныеВалюты"
+				},
+				{
+					"name": "Парам2",
+					"value": "ДополнительныеВалютыВалюта"
+				},
+				{
+					"name": "Парам3",
+					"value": "USD"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"ДополнительныеВалюты\" я завершаю редактирование строки",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДополнительныеВалюты"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаКомандаОК'",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаКомандаОК"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'ВА - Основной регламент  от * (Регламент подготовки отчетности) *'",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ВА - Основной регламент  от * (Регламент подготовки отчетности) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"СтруктураГруппы\" я завершаю редактирование строки",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтруктураГруппы"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"СтруктураГруппы\" я перехожу к строке:",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтруктураГруппы"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "ac14aa3f-839c-47dd-95f3-34ed11ca9a4d-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"СтруктураГруппы\" я выбираю текущую строку",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтруктураГруппы"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"СтруктураГруппы\" я нажимаю кнопку выбора у реквизита с именем \"СтруктураГруппыДополнительныеВалюты\"",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтруктураГруппы"
+				},
+				{
+					"name": "Парам2",
+					"value": "СтруктураГруппыДополнительныеВалюты"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Список валют'",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список валют"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ДополнительныеВалютыДобавить'",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДополнительныеВалютыДобавить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"ДополнительныеВалюты\" из выпадающего списка с именем \"ДополнительныеВалютыВалюта\" я выбираю точное значение 'EUR'",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДополнительныеВалюты"
+				},
+				{
+					"name": "Парам2",
+					"value": "ДополнительныеВалютыВалюта"
+				},
+				{
+					"name": "Парам3",
+					"value": "EUR"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"ДополнительныеВалюты\" я завершаю редактирование строки",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДополнительныеВалюты"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ДополнительныеВалютыДобавить'",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДополнительныеВалютыДобавить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"ДополнительныеВалюты\" из выпадающего списка с именем \"ДополнительныеВалютыВалюта\" я выбираю точное значение 'USD'",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДополнительныеВалюты"
+				},
+				{
+					"name": "Парам2",
+					"value": "ДополнительныеВалютыВалюта"
+				},
+				{
+					"name": "Парам3",
+					"value": "USD"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"ДополнительныеВалюты\" я завершаю редактирование строки",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДополнительныеВалюты"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаКомандаОК'",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаКомандаОК"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'ВА - Основной регламент  от * (Регламент подготовки отчетности) *'",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ВА - Основной регламент  от * (Регламент подготовки отчетности) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"СтруктураГруппы\" я завершаю редактирование строки",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтруктураГруппы"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"СтруктураГруппы\" я перехожу к строке:",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтруктураГруппы"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "9b40dae7-4361-43b8-92eb-242848faccdb-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"СтруктураГруппы\" я выбираю текущую строку",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтруктураГруппы"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"СтруктураГруппы\" я нажимаю кнопку выбора у реквизита с именем \"СтруктураГруппыДополнительныеВалюты\"",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтруктураГруппы"
+				},
+				{
+					"name": "Парам2",
+					"value": "СтруктураГруппыДополнительныеВалюты"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Список валют'",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список валют"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ДополнительныеВалютыДобавить'",
+			"start": 1620975802028,
+			"stop": 1620975802028,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДополнительныеВалютыДобавить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"ДополнительныеВалюты\" из выпадающего списка с именем \"ДополнительныеВалютыВалюта\" я выбираю точное значение 'EUR'",
+			"start": 1620975802029,
+			"stop": 1620975802029,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДополнительныеВалюты"
+				},
+				{
+					"name": "Парам2",
+					"value": "ДополнительныеВалютыВалюта"
+				},
+				{
+					"name": "Парам3",
+					"value": "EUR"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"ДополнительныеВалюты\" я завершаю редактирование строки",
+			"start": 1620975802029,
+			"stop": 1620975802029,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДополнительныеВалюты"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ДополнительныеВалютыДобавить'",
+			"start": 1620975802029,
+			"stop": 1620975802029,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДополнительныеВалютыДобавить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"ДополнительныеВалюты\" из выпадающего списка с именем \"ДополнительныеВалютыВалюта\" я выбираю точное значение 'USD'",
+			"start": 1620975802029,
+			"stop": 1620975802029,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДополнительныеВалюты"
+				},
+				{
+					"name": "Парам2",
+					"value": "ДополнительныеВалютыВалюта"
+				},
+				{
+					"name": "Парам3",
+					"value": "USD"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"ДополнительныеВалюты\" я завершаю редактирование строки",
+			"start": 1620975802029,
+			"stop": 1620975802029,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДополнительныеВалюты"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаКомандаОК'",
+			"start": 1620975802029,
+			"stop": 1620975802029,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаКомандаОК"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'ВА - Основной регламент  от * (Регламент подготовки отчетности) *'",
+			"start": 1620975802029,
+			"stop": 1620975802029,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ВА - Основной регламент  от * (Регламент подготовки отчетности) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"СтруктураГруппы\" я завершаю редактирование строки",
+			"start": 1620975802029,
+			"stop": 1620975802029,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтруктураГруппы"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"СтруктураГруппы\" я перехожу к строке:",
+			"start": 1620975802029,
+			"stop": 1620975802029,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтруктураГруппы"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "61067737-ea2d-4124-87ad-997943cd4e4f-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"СтруктураГруппы\" я выбираю текущую строку",
+			"start": 1620975802029,
+			"stop": 1620975802029,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтруктураГруппы"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"СтруктураГруппы\" я нажимаю кнопку выбора у реквизита с именем \"СтруктураГруппыДополнительныеВалюты\"",
+			"start": 1620975802029,
+			"stop": 1620975802029,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтруктураГруппы"
+				},
+				{
+					"name": "Парам2",
+					"value": "СтруктураГруппыДополнительныеВалюты"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Список валют'",
+			"start": 1620975802029,
+			"stop": 1620975802029,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список валют"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ДополнительныеВалютыДобавить'",
+			"start": 1620975802029,
+			"stop": 1620975802029,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДополнительныеВалютыДобавить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"ДополнительныеВалюты\" из выпадающего списка с именем \"ДополнительныеВалютыВалюта\" я выбираю точное значение 'USD'",
+			"start": 1620975802029,
+			"stop": 1620975802029,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДополнительныеВалюты"
+				},
+				{
+					"name": "Парам2",
+					"value": "ДополнительныеВалютыВалюта"
+				},
+				{
+					"name": "Парам3",
+					"value": "USD"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"ДополнительныеВалюты\" я завершаю редактирование строки",
+			"start": 1620975802029,
+			"stop": 1620975802029,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДополнительныеВалюты"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаКомандаОК'",
+			"start": 1620975802029,
+			"stop": 1620975802029,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаКомандаОК"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'ВА - Основной регламент  от * (Регламент подготовки отчетности) *'",
+			"start": 1620975802029,
+			"stop": 1620975802029,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ВА - Основной регламент  от * (Регламент подготовки отчетности) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"СтруктураГруппы\" я завершаю редактирование строки",
+			"start": 1620975802029,
+			"stop": 1620975802029,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтруктураГруппы"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаЗаписатьИЗакрыть'",
+			"start": 1620975802029,
+			"stop": 1620975802029,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаЗаписатьИЗакрыть"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я жду закрытия окна 'ВА - Основной регламент  от * (Регламент подготовки отчетности) *' в течение 10 секунд",
+			"start": 1620975802029,
+			"stop": 1620975802029,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ВА - Основной регламент  от * (Регламент подготовки отчетности) *"
+				},
+				{
+					"name": "Парам2",
+					"value": 10
+				}
+			],
+			"attachments": [
+				{
+					"name": "screenshot",
+					"source": "v8_BC1_26.png",
+					"type": "image/png"
+				}
+			],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "01.09. Создание Регламента подготовки отчетности"
+		},
+		{
+			"name": "feature",
+			"value": "01.09. Создание Регламента подготовки отчетности"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "VA-Tests"
+		},
+		{
+			"name": "host",
+			"value": "onyanov-v"
+		}
+	],
+	"links": [],
+	"attachments": [
+		{
+			"name": "screenshot",
+			"source": "5cf4ae23-ca06-4f43-9854-924abca14542-attachment.png",
+			"type": "image/png"
+		}
+	],
+	"description": null
+}

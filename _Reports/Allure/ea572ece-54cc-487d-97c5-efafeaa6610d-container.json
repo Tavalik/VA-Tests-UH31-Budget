@@ -1,0 +1,42 @@
+{
+	"uuid": "0d61e25d-3def-4e06-92ed-47b5b3b4d6e9",
+	"name": "Контекст_01.02. Создание вида отчета",
+	"description": "",
+	"children": [
+		"ea572ece-54cc-487d-97c5-efafeaa6610d"
+	],
+	"befores": [
+		{
+			"name": "Дано Я открыл новый сеанс TestClient или подключил уже существующий",
+			"start": 1620975703164,
+			"stop": 1620975703550,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрыл все окна клиентского приложения",
+			"start": 1620975703727,
+			"stop": 1620975703875,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}
