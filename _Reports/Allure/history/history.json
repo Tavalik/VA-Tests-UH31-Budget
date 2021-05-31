@@ -4,11 +4,43 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 4
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "2f15e1b240553ed0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622159145499,
+        "stop" : 1622159247346,
+        "duration" : 101847
+      }
+    }, {
+      "uid" : "e17c927773a30c09",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622072694390,
+        "stop" : 1622072794091,
+        "duration" : 99701
+      }
+    }, {
+      "uid" : "43adff157d1cb771",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621986530384,
+        "stop" : 1621986633012,
+        "duration" : 102628
+      }
+    }, {
+      "uid" : "f0777dcc143a7d55",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621899996254,
+        "stop" : 1621900099147,
+        "duration" : 102893
+      }
+    }, {
       "uid" : "2c213b192f943451",
       "status" : "passed",
       "time" : {
@@ -40,6 +72,92 @@
         "start" : 1621467858315,
         "stop" : 1621467921072,
         "duration" : 62757
+      }
+    } ]
+  },
+  "Проверка функционала работы с правилами расчета.02.00 Определение типа приложения" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "3468edcf492e83ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622159350502,
+        "stop" : 1622159350980,
+        "duration" : 478
+      }
+    }, {
+      "uid" : "96e9a7c52292d141",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622072895297,
+        "stop" : 1622072895792,
+        "duration" : 495
+      }
+    }, {
+      "uid" : "e49829e23e48f782",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621986732688,
+        "stop" : 1621986733216,
+        "duration" : 528
+      }
+    }, {
+      "uid" : "2dc22766a85ce8d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621900202438,
+        "stop" : 1621900202960,
+        "duration" : 522
+      }
+    } ]
+  },
+  "Проверка функционала работы с правилами расчета.02.03 Создание отчета с загрузкой из РС \"ВА - Цена\"" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "836efefa9c5e0ad2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622159369800,
+        "stop" : 1622159376027,
+        "duration" : 6227
+      }
+    }, {
+      "uid" : "12fca2d1c9cd8c3b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622072913416,
+        "stop" : 1622072919209,
+        "duration" : 5793
+      }
+    }, {
+      "uid" : "2a4fe1e79cb88824",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621986752590,
+        "stop" : 1621986759057,
+        "duration" : 6467
+      }
+    }, {
+      "uid" : "befb2ba0e195eb5e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621900260604,
+        "stop" : 1621900266961,
+        "duration" : 6357
       }
     } ]
   },
@@ -120,6 +238,41 @@
         "start" : 1619182190625,
         "stop" : 1619182196824,
         "duration" : 6199
+      }
+    } ]
+  },
+  "Проверка функционала работы с правилами расчета.02.10 Удаление версий при автоматическом расчете" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "b5c34da8d3197caa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622159422287,
+        "stop" : 1622159428134,
+        "duration" : 5847
+      }
+    }, {
+      "uid" : "40b4f766f4643ebe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622072965259,
+        "stop" : 1622072971022,
+        "duration" : 5763
+      }
+    }, {
+      "uid" : "ebdf46a0cdcfa80a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621986803037,
+        "stop" : 1621986808328,
+        "duration" : 5291
       }
     } ]
   },
@@ -220,6 +373,42 @@
       }
     } ]
   },
+  "Проверка функционала работы с правилами расчета.02.08 Проверка работы произвольных функций расчета" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "c6a0e46dee62dfee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622159407443,
+        "stop" : 1622159415136,
+        "duration" : 7693
+      }
+    }, {
+      "uid" : "d4b947c0087cb63d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622072950428,
+        "stop" : 1622072958006,
+        "duration" : 7578
+      }
+    }, {
+      "uid" : "e960c7b464bcb024",
+      "status" : "failed",
+      "statusDetails" : "Ошибка при вызове метода контекста (Открыть):",
+      "time" : {
+        "start" : 1621986789645,
+        "stop" : 1621986792094,
+        "duration" : 2449
+      }
+    } ]
+  },
   "Проверка создание видов отчетов.1.6. Работа в контрукторе отчета - Ввод формул" : {
     "statistic" : {
       "failed" : 0,
@@ -236,6 +425,42 @@
         "start" : 1619683964347,
         "stop" : 1619683977172,
         "duration" : 12825
+      }
+    } ]
+  },
+  "Проверка функционала работы с правилами расчета.02.09 Отображение экземпляра в валюте после расчетов" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "28e3c826495ab303",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622159416191,
+        "stop" : 1622159421096,
+        "duration" : 4905
+      }
+    }, {
+      "uid" : "b347295ac4fb62a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622072959167,
+        "stop" : 1622072964126,
+        "duration" : 4959
+      }
+    }, {
+      "uid" : "e9e317562f038d9a",
+      "status" : "failed",
+      "statusDetails" : "В табличном документе в колонке №2 значение= <80> , а ожидалось <0>",
+      "time" : {
+        "start" : 1621986794716,
+        "stop" : 1621986800088,
+        "duration" : 5372
       }
     } ]
   },
@@ -553,11 +778,43 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 4
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "bcf9da0763720963",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622159069179,
+        "stop" : 1622159070709,
+        "duration" : 1530
+      }
+    }, {
+      "uid" : "e691186d47b3df8b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622072618275,
+        "stop" : 1622072619898,
+        "duration" : 1623
+      }
+    }, {
+      "uid" : "909e882b431f8ec9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621986453106,
+        "stop" : 1621986454670,
+        "duration" : 1564
+      }
+    }, {
+      "uid" : "57f1b4b7496341d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621899918317,
+        "stop" : 1621899919871,
+        "duration" : 1554
+      }
+    }, {
       "uid" : "714f03ce48470584",
       "status" : "passed",
       "time" : {
@@ -588,6 +845,50 @@
         "start" : 1621467781063,
         "stop" : 1621467782613,
         "duration" : 1550
+      }
+    } ]
+  },
+  "Проверка функционала работы с правилами расчета.02.02 Создание экземпляра отчета - \"ВА - Количество\"" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "916c22010421f9f1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622159357813,
+        "stop" : 1622159368582,
+        "duration" : 10769
+      }
+    }, {
+      "uid" : "5dc6bcdfb265f725",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622072901817,
+        "stop" : 1622072912369,
+        "duration" : 10552
+      }
+    }, {
+      "uid" : "b3d0f1c6e1273dc9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621986739789,
+        "stop" : 1621986751514,
+        "duration" : 11725
+      }
+    }, {
+      "uid" : "15154e2903666dc1",
+      "status" : "failed",
+      "statusDetails" : "Окно с заголовком <Экземпляр отчета ВА - Количество:",
+      "time" : {
+        "start" : 1621900209783,
+        "stop" : 1621900258116,
+        "duration" : 48333
       }
     } ]
   },
@@ -837,11 +1138,43 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 4
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "97cda2fb5ff75187",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622159120198,
+        "stop" : 1622159137343,
+        "duration" : 17145
+      }
+    }, {
+      "uid" : "3158fc8e6b5d02f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622072668168,
+        "stop" : 1622072686154,
+        "duration" : 17986
+      }
+    }, {
+      "uid" : "1fdd3060b7e85c82",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621986505203,
+        "stop" : 1621986522288,
+        "duration" : 17085
+      }
+    }, {
+      "uid" : "79a9ac7dd675bbe4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621899970185,
+        "stop" : 1621899988316,
+        "duration" : 18131
+      }
+    }, {
       "uid" : "561f43626c75c618",
       "status" : "passed",
       "time" : {
@@ -1043,7 +1376,7 @@
       }
     } ]
   },
-  "Первоначальные настройки и ввод НСИ.00.08 Установка цен номенклатуры" : {
+  "Первоначальные настройки и ввод НСИ.00.01 Установка значений констант, определение типа приложения" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -1053,6 +1386,124 @@
       "total" : 4
     },
     "items" : [ {
+      "uid" : "a026569235102ae9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622158933106,
+        "stop" : 1622158945614,
+        "duration" : 12508
+      }
+    }, {
+      "uid" : "6884b17c3885bef9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622072486949,
+        "stop" : 1622072500070,
+        "duration" : 13121
+      }
+    }, {
+      "uid" : "278ebf6465572a5e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621986354544,
+        "stop" : 1621986368414,
+        "duration" : 13870
+      }
+    }, {
+      "uid" : "4e9673a604ba1205",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621899820579,
+        "stop" : 1621899833223,
+        "duration" : 12644
+      }
+    } ]
+  },
+  "Проверка функционала работы с правилами расчета.02.06 Создание экземпляра отчета - \"ВА - Продажи\"" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "9431107ef11ee896",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622159393834,
+        "stop" : 1622159401070,
+        "duration" : 7236
+      }
+    }, {
+      "uid" : "b81924403c5f53e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622072936812,
+        "stop" : 1622072944096,
+        "duration" : 7284
+      }
+    }, {
+      "uid" : "c5c2d6ad5c0884d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621986777025,
+        "stop" : 1621986784028,
+        "duration" : 7003
+      }
+    }, {
+      "uid" : "7120eb360eae2fd9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621900282980,
+        "stop" : 1621900290009,
+        "duration" : 7029
+      }
+    } ]
+  },
+  "Первоначальные настройки и ввод НСИ.00.08 Установка цен номенклатуры" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 8,
+      "unknown" : 0,
+      "total" : 8
+    },
+    "items" : [ {
+      "uid" : "24aaa76a270ebcf9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622159044359,
+        "stop" : 1622159061561,
+        "duration" : 17202
+      }
+    }, {
+      "uid" : "2bc9c2817b313fcc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622072594639,
+        "stop" : 1622072611553,
+        "duration" : 16914
+      }
+    }, {
+      "uid" : "5084a0d58a8d0a5f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621986427910,
+        "stop" : 1621986445612,
+        "duration" : 17702
+      }
+    }, {
+      "uid" : "b20a3788c71c39fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621899894055,
+        "stop" : 1621899911620,
+        "duration" : 17565
+      }
+    }, {
       "uid" : "2edf08e8ba5886e3",
       "status" : "passed",
       "time" : {
@@ -1086,7 +1537,7 @@
       }
     } ]
   },
-  "Первоначальные настройки и ввод НСИ.00.05 Создание документа Управление отчетным периодом" : {
+  "Проверка функционала работы с правилами расчета.02.01 Создание отчета с ручным вводом - \"ВА - Количество\"" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -1096,6 +1547,81 @@
       "total" : 4
     },
     "items" : [ {
+      "uid" : "65c024e2aefc62b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622159352117,
+        "stop" : 1622159356600,
+        "duration" : 4483
+      }
+    }, {
+      "uid" : "a5d6e10d64cf2d23",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622072896929,
+        "stop" : 1622072900680,
+        "duration" : 3751
+      }
+    }, {
+      "uid" : "6cf2751497545694",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621986734312,
+        "stop" : 1621986738587,
+        "duration" : 4275
+      }
+    }, {
+      "uid" : "78f9d9fca24407e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621900204072,
+        "stop" : 1621900208621,
+        "duration" : 4549
+      }
+    } ]
+  },
+  "Первоначальные настройки и ввод НСИ.00.05 Создание документа Управление отчетным периодом" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 8,
+      "unknown" : 0,
+      "total" : 8
+    },
+    "items" : [ {
+      "uid" : "3188d000d61eb35",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622159012148,
+        "stop" : 1622159019316,
+        "duration" : 7168
+      }
+    }, {
+      "uid" : "d5f0c167818ec49f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622072564178,
+        "stop" : 1622072571253,
+        "duration" : 7075
+      }
+    }, {
+      "uid" : "2c2155782e083a1e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621986396194,
+        "stop" : 1621986403637,
+        "duration" : 7443
+      }
+    }, {
+      "uid" : "81323e2d09a42172",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621899861264,
+        "stop" : 1621899869236,
+        "duration" : 7972
+      }
+    }, {
       "uid" : "21bdd190e8a8f632",
       "status" : "passed",
       "time" : {
@@ -1154,11 +1680,43 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 4
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "3f734713ad1ae73f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622159299450,
+        "stop" : 1622159316165,
+        "duration" : 16715
+      }
+    }, {
+      "uid" : "a8582837cfa1e28e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622072847506,
+        "stop" : 1622072864115,
+        "duration" : 16609
+      }
+    }, {
+      "uid" : "759899c503654248",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621986683493,
+        "stop" : 1621986700038,
+        "duration" : 16545
+      }
+    }, {
+      "uid" : "f42ee69c91d7f910",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621900149392,
+        "stop" : 1621900165998,
+        "duration" : 16606
+      }
+    }, {
       "uid" : "78d59edefa1a8d70",
       "status" : "passed",
       "time" : {
@@ -1198,11 +1756,43 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 4
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "9db2f775bcbb652e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622159284805,
+        "stop" : 1622159290880,
+        "duration" : 6075
+      }
+    }, {
+      "uid" : "158cce323e5156d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622072832887,
+        "stop" : 1622072838930,
+        "duration" : 6043
+      }
+    }, {
+      "uid" : "ec08f1e39295b584",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621986668850,
+        "stop" : 1621986674886,
+        "duration" : 6036
+      }
+    }, {
+      "uid" : "b691a2bd71372226",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621900134730,
+        "stop" : 1621900140776,
+        "duration" : 6046
+      }
+    }, {
       "uid" : "ff501c5df53152eb",
       "status" : "passed",
       "time" : {
@@ -1269,11 +1859,43 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 4
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "8071b55e11bc4608",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622159086238,
+        "stop" : 1622159119101,
+        "duration" : 32863
+      }
+    }, {
+      "uid" : "49107375f8682917",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622072634150,
+        "stop" : 1622072667077,
+        "duration" : 32927
+      }
+    }, {
+      "uid" : "7969f2adda71cd41",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621986470405,
+        "stop" : 1621986504028,
+        "duration" : 33623
+      }
+    }, {
+      "uid" : "4334da8207006992",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621899935220,
+        "stop" : 1621899969079,
+        "duration" : 33859
+      }
+    }, {
       "uid" : "6bd2e70e9021e3cf",
       "status" : "passed",
       "time" : {
@@ -1312,11 +1934,43 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 4
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "a72b3a637f1cd012",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622159064707,
+        "stop" : 1622159068031,
+        "duration" : 3324
+      }
+    }, {
+      "uid" : "29490fc84fd595ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622072614604,
+        "stop" : 1622072617112,
+        "duration" : 2508
+      }
+    }, {
+      "uid" : "341eb9df245d4fe5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621986448834,
+        "stop" : 1621986452056,
+        "duration" : 3222
+      }
+    }, {
+      "uid" : "3a44d66779b16b59",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621899914640,
+        "stop" : 1621899917342,
+        "duration" : 2702
+      }
+    }, {
       "uid" : "75ec751c538ff768",
       "status" : "passed",
       "time" : {
@@ -1355,11 +2009,43 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 4
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "d361ed5af970f910",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622158946697,
+        "stop" : 1622158949334,
+        "duration" : 2637
+      }
+    }, {
+      "uid" : "8fc7dafc596617e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622072501162,
+        "stop" : 1622072504061,
+        "duration" : 2899
+      }
+    }, {
+      "uid" : "b417c40ec063063c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621986369570,
+        "stop" : 1621986372287,
+        "duration" : 2717
+      }
+    }, {
+      "uid" : "79eb6837729a1b44",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621899834385,
+        "stop" : 1621899837063,
+        "duration" : 2678
+      }
+    }, {
       "uid" : "88cd1beadd9c8fd2",
       "status" : "passed",
       "time" : {
@@ -1444,11 +2130,43 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 4
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "9301106ce633e182",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622159328354,
+        "stop" : 1622159349450,
+        "duration" : 21096
+      }
+    }, {
+      "uid" : "bf75eb640aab4628",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622072873147,
+        "stop" : 1622072894214,
+        "duration" : 21067
+      }
+    }, {
+      "uid" : "42dbc2b793367040",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621986711131,
+        "stop" : 1621986731557,
+        "duration" : 20426
+      }
+    }, {
+      "uid" : "2ff96510447d9775",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621900177217,
+        "stop" : 1621900201456,
+        "duration" : 24239
+      }
+    }, {
       "uid" : "b20b7d18ccc63438",
       "status" : "passed",
       "time" : {
@@ -1567,6 +2285,49 @@
       }
     } ]
   },
+  "Проверка функционала работы с правилами расчета.02.04 Создание экземпляра отчета - \"ВА - Цена\"" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "792f26ba492f762d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622159377146,
+        "stop" : 1622159383064,
+        "duration" : 5918
+      }
+    }, {
+      "uid" : "f35b213d0fd5e0fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622072920327,
+        "stop" : 1622072926086,
+        "duration" : 5759
+      }
+    }, {
+      "uid" : "2ef96c3e3626b3d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621986760158,
+        "stop" : 1621986766138,
+        "duration" : 5980
+      }
+    }, {
+      "uid" : "3841b8b075a6249a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621900268115,
+        "stop" : 1621900274076,
+        "duration" : 5961
+      }
+    } ]
+  },
   "Проверка создание видов отчетов.1.11. Создание проекта" : {
     "statistic" : {
       "failed" : 1,
@@ -1592,11 +2353,43 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 4
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "ff64e44ea2043fab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622159071806,
+        "stop" : 1622159085080,
+        "duration" : 13274
+      }
+    }, {
+      "uid" : "5a0c2a848d1fe6c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622072620925,
+        "stop" : 1622072633075,
+        "duration" : 12150
+      }
+    }, {
+      "uid" : "b8a8950643519700",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621986455748,
+        "stop" : 1621986469145,
+        "duration" : 13397
+      }
+    }, {
+      "uid" : "892b9ecd7f24f63c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621899920963,
+        "stop" : 1621899934040,
+        "duration" : 13077
+      }
+    }, {
       "uid" : "9f6b4cc34a2a1f40",
       "status" : "passed",
       "time" : {
@@ -1983,11 +2776,43 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 4
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "deb8296e52719b50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622159259752,
+        "stop" : 1622159264401,
+        "duration" : 4649
+      }
+    }, {
+      "uid" : "d0ada897423f6600",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622072809092,
+        "stop" : 1622072813922,
+        "duration" : 4830
+      }
+    }, {
+      "uid" : "850d485c6e3986e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621986645671,
+        "stop" : 1621986650534,
+        "duration" : 4863
+      }
+    }, {
+      "uid" : "58fbd326ff356708",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621900111294,
+        "stop" : 1621900116108,
+        "duration" : 4814
+      }
+    }, {
       "uid" : "4c4abc3a1b7cb642",
       "status" : "passed",
       "time" : {
@@ -2078,11 +2903,43 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 4
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "efb3af276c76459f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622159291930,
+        "stop" : 1622159298390,
+        "duration" : 6460
+      }
+    }, {
+      "uid" : "3e42c19f53359d45",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622072839991,
+        "stop" : 1622072846418,
+        "duration" : 6427
+      }
+    }, {
+      "uid" : "59d87e17e8881cd8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621986675962,
+        "stop" : 1621986682297,
+        "duration" : 6335
+      }
+    }, {
+      "uid" : "34d5398ce9395f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621900141858,
+        "stop" : 1621900148228,
+        "duration" : 6370
+      }
+    }, {
       "uid" : "7b001acb0616f5f4",
       "status" : "passed",
       "time" : {
@@ -2144,16 +3001,84 @@
       }
     } ]
   },
+  "Проверка функционала работы с правилами расчета.02.07 Проверка поведения формы редактирования процедур" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "ddf36feb44231c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622159402151,
+        "stop" : 1622159406348,
+        "duration" : 4197
+      }
+    }, {
+      "uid" : "443aa809543f6f9d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622072945142,
+        "stop" : 1622072949295,
+        "duration" : 4153
+      }
+    }, {
+      "uid" : "233b36a5992883a0",
+      "status" : "failed",
+      "statusDetails" : "Ошибка при вызове метода контекста (Открыть):",
+      "time" : {
+        "start" : 1621986785171,
+        "stop" : 1621986787154,
+        "duration" : 1983
+      }
+    } ]
+  },
   "Первоначальные настройки и ввод НСИ.00.07 Создание номенклатуры" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 4
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "49855f4703f5a09e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622159025591,
+        "stop" : 1622159043126,
+        "duration" : 17535
+      }
+    }, {
+      "uid" : "d21d1155f3369a35",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622072576365,
+        "stop" : 1622072593448,
+        "duration" : 17083
+      }
+    }, {
+      "uid" : "dcd3ba205608e56a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621986409400,
+        "stop" : 1621986426668,
+        "duration" : 17268
+      }
+    }, {
+      "uid" : "f51a273441baca24",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621899875481,
+        "stop" : 1621899892924,
+        "duration" : 17443
+      }
+    }, {
       "uid" : "79300dc468c3aae4",
       "status" : "passed",
       "time" : {
@@ -2235,11 +3160,43 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 4
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "64a2e6a414dc1e7f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622159265475,
+        "stop" : 1622159272029,
+        "duration" : 6554
+      }
+    }, {
+      "uid" : "15dddd81a6771cce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622072814988,
+        "stop" : 1622072822077,
+        "duration" : 7089
+      }
+    }, {
+      "uid" : "9bb08f73b4675086",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621986651588,
+        "stop" : 1621986657979,
+        "duration" : 6391
+      }
+    }, {
+      "uid" : "65f88024186d8d1a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621900117210,
+        "stop" : 1621900124024,
+        "duration" : 6814
+      }
+    }, {
       "uid" : "cf2ff7a2e2548fc3",
       "status" : "passed",
       "time" : {
@@ -2692,11 +3649,43 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 4
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "e6c3f73509aeb801",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622159138563,
+        "stop" : 1622159144224,
+        "duration" : 5661
+      }
+    }, {
+      "uid" : "62697706b64c3ac0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622072687292,
+        "stop" : 1622072693157,
+        "duration" : 5865
+      }
+    }, {
+      "uid" : "133adc609ee5334c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621986523483,
+        "stop" : 1621986529210,
+        "duration" : 5727
+      }
+    }, {
+      "uid" : "3b3e3e7a51a7d083",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621899989547,
+        "stop" : 1621899995219,
+        "duration" : 5672
+      }
+    }, {
       "uid" : "6b726e0a23eb2428",
       "status" : "passed",
       "time" : {
@@ -2727,6 +3716,49 @@
         "start" : 1621467851208,
         "stop" : 1621467857379,
         "duration" : 6171
+      }
+    } ]
+  },
+  "Проверка функционала работы с правилами расчета.02.05 Создание отчета с рассчитываемыми показателями - \"ВА - Продажи\"" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "cab5109ff5f89c4f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622159384255,
+        "stop" : 1622159392606,
+        "duration" : 8351
+      }
+    }, {
+      "uid" : "665c4efd3a13608e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622072927244,
+        "stop" : 1622072935605,
+        "duration" : 8361
+      }
+    }, {
+      "uid" : "e397e847e240d81a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621986767272,
+        "stop" : 1621986775811,
+        "duration" : 8539
+      }
+    }, {
+      "uid" : "a72834e0d7a6cbb5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621900275230,
+        "stop" : 1621900281923,
+        "duration" : 6693
       }
     } ]
   },
@@ -2908,11 +3940,43 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 4
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "a8c8df8585bb601",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622159020519,
+        "stop" : 1622159024355,
+        "duration" : 3836
+      }
+    }, {
+      "uid" : "3835582923855c10",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622072572307,
+        "stop" : 1622072575297,
+        "duration" : 2990
+      }
+    }, {
+      "uid" : "77f26d80ecd38751",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621986404729,
+        "stop" : 1621986408355,
+        "duration" : 3626
+      }
+    }, {
+      "uid" : "b754f890b70ab210",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621899870404,
+        "stop" : 1621899874354,
+        "duration" : 3950
+      }
+    }, {
       "uid" : "f161a49c84f1d8ef",
       "status" : "passed",
       "time" : {
@@ -3470,16 +4534,67 @@
       }
     } ]
   },
+  "<описание фичи>.03.01 Создание отчета с группами и 6 аналитиками" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f43dee5d26f50d54",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622159430613,
+        "stop" : 1622159454114,
+        "duration" : 23501
+      }
+    } ]
+  },
   "Первоначальные настройки и ввод НСИ.00.03 Создание сценария" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 4
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "3b5b4a339486a3b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622158950556,
+        "stop" : 1622158953865,
+        "duration" : 3309
+      }
+    }, {
+      "uid" : "b136eb9b8fc311b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622072505230,
+        "stop" : 1622072508338,
+        "duration" : 3108
+      }
+    }, {
+      "uid" : "6f2b55d659096fd9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621986373435,
+        "stop" : 1621986376348,
+        "duration" : 2913
+      }
+    }, {
+      "uid" : "9c6113c63eea5ca8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621899838249,
+        "stop" : 1621899841355,
+        "duration" : 3106
+      }
+    }, {
       "uid" : "b0185192bf15d890",
       "status" : "passed",
       "time" : {
@@ -3518,11 +4633,43 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 4
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "8e95c2034364f2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622159248549,
+        "stop" : 1622159258620,
+        "duration" : 10071
+      }
+    }, {
+      "uid" : "a1fda2ea222cda8b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622072795251,
+        "stop" : 1622072807920,
+        "duration" : 12669
+      }
+    }, {
+      "uid" : "3d23d6a93a9e09a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621986634278,
+        "stop" : 1621986644477,
+        "duration" : 10199
+      }
+    }, {
+      "uid" : "2f33f666624d3766",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621900100306,
+        "stop" : 1621900110240,
+        "duration" : 9934
+      }
+    }, {
       "uid" : "a0251f8d133d7351",
       "status" : "passed",
       "time" : {
@@ -3557,6 +4704,25 @@
       }
     } ]
   },
+  "<описание фичи>.03.00 Определение типа приложения" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "26d0767e55b94938",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622159429391,
+        "stop" : 1622159429409,
+        "duration" : 18
+      }
+    } ]
+  },
   "Проверка создание видов отчетов.1.8. Создание сценария" : {
     "statistic" : {
       "failed" : 0,
@@ -3581,11 +4747,43 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 4
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "ce8a41625250d8b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622159273192,
+        "stop" : 1622159283663,
+        "duration" : 10471
+      }
+    }, {
+      "uid" : "77eededa3ca9a559",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622072823113,
+        "stop" : 1622072831691,
+        "duration" : 8578
+      }
+    }, {
+      "uid" : "30ea2549e2316151",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621986659113,
+        "stop" : 1621986667695,
+        "duration" : 8582
+      }
+    }, {
+      "uid" : "d8b9e67ac85bb11b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621900125144,
+        "stop" : 1621900133744,
+        "duration" : 8600
+      }
+    }, {
       "uid" : "feb54bae430528f2",
       "status" : "passed",
       "time" : {
@@ -3920,11 +5118,43 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 4
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "e18fc8720f88e56c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622159317361,
+        "stop" : 1622159327115,
+        "duration" : 9754
+      }
+    }, {
+      "uid" : "1d6c260d43e1fc20",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622072865187,
+        "stop" : 1622072872103,
+        "duration" : 6916
+      }
+    }, {
+      "uid" : "a2041979b283dd4d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621986701191,
+        "stop" : 1621986710087,
+        "duration" : 8896
+      }
+    }, {
+      "uid" : "e74b4d449738c6cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621900167053,
+        "stop" : 1621900176044,
+        "duration" : 8991
+      }
+    }, {
       "uid" : "8a1332c0609c310b",
       "status" : "passed",
       "time" : {
@@ -3991,11 +5221,43 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 4
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "d3974e830cf0f78f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622158955037,
+        "stop" : 1622159011025,
+        "duration" : 55988
+      }
+    }, {
+      "uid" : "2363712201a8adbc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622072509508,
+        "stop" : 1622072563034,
+        "duration" : 53526
+      }
+    }, {
+      "uid" : "d38a9362b6080993",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621986377497,
+        "stop" : 1621986395062,
+        "duration" : 17565
+      }
+    }, {
+      "uid" : "964799ef6a4e21c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621899842504,
+        "stop" : 1621899860097,
+        "duration" : 17593
+      }
+    }, {
       "uid" : "c4f0f5bb99f9f843",
       "status" : "passed",
       "time" : {
@@ -4053,6 +5315,49 @@
         "start" : 1621335286494,
         "stop" : 1621335302901,
         "duration" : 16407
+      }
+    } ]
+  },
+  "Проверка создание видов отчетов с полным набором аналитик.01.00 Определение типа приложения" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "f427b3cb27a74810",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622159062664,
+        "stop" : 1622159063469,
+        "duration" : 805
+      }
+    }, {
+      "uid" : "96552fd6912a2db7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622072612774,
+        "stop" : 1622072613561,
+        "duration" : 787
+      }
+    }, {
+      "uid" : "18804a3fdcfdde6b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621986446805,
+        "stop" : 1621986447639,
+        "duration" : 834
+      }
+    }, {
+      "uid" : "b1735cbf1c119f07",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621899912801,
+        "stop" : 1621899913610,
+        "duration" : 809
       }
     } ]
   }

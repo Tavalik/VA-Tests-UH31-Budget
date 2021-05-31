@@ -1,4 +1,16 @@
 [ {
+  "data" : { }
+}, {
+  "data" : { }
+}, {
+  "data" : {
+    "Product defects" : 3
+  }
+}, {
+  "data" : {
+    "Product defects" : 1
+  }
+}, {
   "data" : {
     "Product defects" : 4
   }
@@ -55,21 +67,5 @@
 }, {
   "data" : {
     "Product defects" : 11
-  }
-}, {
-  "data" : {
-    "Product defects" : 11
-  }
-}, {
-  "data" : {
-    "Product defects" : 12
-  }
-}, {
-  "data" : {
-    "Product defects" : 12
-  }
-}, {
-  "data" : {
-    "Product defects" : 12
   }
 } ]
