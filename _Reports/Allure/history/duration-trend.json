@@ -1,5 +1,33 @@
 [ {
   "data" : {
+    "duration" : 769634
+  }
+}, {
+  "data" : {
+    "duration" : 109358
+  }
+}, {
+  "data" : {
+    "duration" : 705147
+  }
+}, {
+  "data" : {
+    "duration" : 705333
+  }
+}, {
+  "data" : {
+    "duration" : 688399
+  }
+}, {
+  "data" : {
+    "duration" : 717707
+  }
+}, {
+  "data" : {
+    "duration" : 647485
+  }
+}, {
+  "data" : {
     "duration" : 521008
   }
 }, {
@@ -49,33 +77,5 @@
 }, {
   "data" : {
     "duration" : 182808
-  }
-}, {
-  "data" : {
-    "duration" : 209363
-  }
-}, {
-  "data" : {
-    "duration" : 214205
-  }
-}, {
-  "data" : {
-    "duration" : 64603
-  }
-}, {
-  "data" : {
-    "duration" : 221414
-  }
-}, {
-  "data" : {
-    "duration" : 247473
-  }
-}, {
-  "data" : {
-    "duration" : 224744
-  }
-}, {
-  "data" : {
-    "duration" : 225681
   }
 } ]
