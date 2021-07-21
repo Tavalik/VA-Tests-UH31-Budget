@@ -1,8 +1,11 @@
 # Служебные каталоги
-
 _Reports/
 _ErrorImage/
+Макеты/ВА_ИмпортExcel_Шаблон.xls
 
 # Файл статуса прохождения теста
-
 BuildStatus.log
+
+# Файл настроек
+VAParams.json
+
