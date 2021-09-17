@@ -1,8 +1,4 @@
 ﻿#language: ru
-#report.epic=Основной сценарий тестирования
-#report.feature=Работа с Excel
-#report.suite=Работа с Excel
-#report.story=Работа с Excel
 
 @tree
 
