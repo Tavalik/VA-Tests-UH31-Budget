@@ -1,6 +1,7 @@
 ﻿#language: ru
 
 @ExportScenarios
+@IgnoreOnCIMainBuild
 
 Функционал: Экспортные сценарии для работы с видами отчетов
 
